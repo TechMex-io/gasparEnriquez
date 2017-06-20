@@ -6,11 +6,11 @@
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 
 		<!-- Page Title -->
-		<title>Beeville Art Museum</title>
+		<title>gaspar enriquez - chicano artist</title>
 
 		<!-- Fonts and Material Icons -->
     <!--<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">-->
-		<link href="https://fonts.googleapis.com/css?family=Inder|NTR" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Overlock|Abel" rel="stylesheet">
     
 		<!-- Styles -->
 		<link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -92,6 +92,35 @@
   <symbol id="youtube" viewBox="0 0 24 24"><path d="M23.6 6.3c-.3-1.2-1.4-2.2-2.6-2.3-3-.3-6-.3-9-.3s-6 0-9 .3c-1.2.1-2.3 1.1-2.6 2.3-.4 1.8-.4 3.8-.4 5.7 0 1.9 0 3.9.4 5.7.3 1.2 1.4 2.2 2.6 2.3 3 .3 6 .3 9 .3s6 0 9-.3c1.3-.1 2.3-1.1 2.6-2.4.4-1.7.4-3.7.4-5.6 0-1.9 0-3.9-.4-5.7zm-14.1 9v-6.6l6.5 3.3-6.5 3.3z"/></symbol>
 
 </svg>
+
+
+<!-- EXAMPLE: Background Youtube -->
+<!-- copy styles -->
+<style>
+  .slide.video.youtube .background {
+    opacity: 0;
+    -webkit-transition:1s opacity;
+    transition:1s opacity;
+  }
+
+  .slide.video.youtube .background.playing,
+  .mobile .slide.video.youtube .background {
+    opacity:1;
+  }
+</style>
+
+<!-- use the layout -->
+<section class="slide hero fade-8 video youtube">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <h1 class="bold fix-10-12 ae-5">gaspar enr&iacute;quez</h1>
+        <div class="ae-7"><p class="hero">chicano artist</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="background" id="background" style="background-image: url(https://media.giphy.com/media/yXqT2f4uBdHvG/giphy.gif)"></div>
+</section>
 
 
 <section class="slide fade whiteSlide fromLeft">

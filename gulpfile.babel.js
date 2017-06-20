@@ -15,11 +15,7 @@ import browserSync from 'browser-sync';
 const reload = browserSync.reload;
 
 /* Init task */
-gulp.task('init', function () {
-  return gulp.src(['scss/slides.scss'])
-    .pipe(concat('custom.scss'))
-    .pipe(gulp.dest('custom/'));
-});
+gulp.task('init', ['sass', 'hbs', 'scripts', 'assets']);
 
 /* Handllebars */
 gulp.task('hbs', () => {
@@ -35,7 +31,7 @@ gulp.task('hbs', () => {
     .pipe(reload({stream:true}));
 });
 
-gulp.task('scripts', function () {
+gulp.task('scripts', () => {
   return gulp.src([
     /* Add your JS files here, they will be combined in this order */
     // 'js/vendor/jquery-1.11.1.js',
@@ -51,7 +47,7 @@ gulp.task('scripts', function () {
 });
 
 /* Sass task */
-gulp.task('sass', function () {  
+gulp.task('sass', () => {  
   gulp.src('./src/scss/slides.scss')
     .pipe(sourcemaps.init())
     .pipe(plumber())
@@ -73,7 +69,7 @@ gulp.task('assets', () => {
 });
 
 /* Reload task */
-gulp.task('bs-reload', function () {
+gulp.task('bs-reload', () => {
   browserSync.reload();
 });
 
@@ -93,7 +89,7 @@ gulp.task('browser-sync', function () {
   });
 });
 
-gulp.task('serve', function () {
+gulp.task('serve', () => {
   browserSync.init({
     server: {
       baseDir: './dist'
