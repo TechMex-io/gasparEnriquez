@@ -3,8 +3,8 @@ if (!window.isMobile && ($('.slide.youtube').length > 0)) {
   var tv,
       tag = document.createElement('script'),
       firstScriptTag = document.getElementsByTagName('script')[0],
-      video = {'videoId': 'zsT8vLsniAo', 'startSeconds': 0, 'endSeconds': 10, 'suggestedQuality': 'hd1080'};
-      
+      video = {'videoId': '58fRQF-dGhA', 'startSeconds': 0, 'endSeconds': 9, 'suggestedQuality': 'hd1080'};
+      //another video id to try//-97LGPTZFrI//original//zsT8vLsniAo
       tag.src = 'https://www.youtube.com/player_api';
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
       
