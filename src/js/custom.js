@@ -3,7 +3,7 @@ if (!window.isMobile && ($('.slide.youtube').length > 0)) {
   var tv,
       tag = document.createElement('script'),
       firstScriptTag = document.getElementsByTagName('script')[0],
-      video = {'videoId': 'zsT8vLsniAo', 'startSeconds': 0, 'endSeconds': 10, 'suggestedQuality': 'hd1080'};
+      video = {'videoId': 'zsT8vLsniAo', 'startSeconds': 0, 'endSeconds': 5, 'suggestedQuality': 'hd1080'};
       
       tag.src = 'https://www.youtube.com/player_api';
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
