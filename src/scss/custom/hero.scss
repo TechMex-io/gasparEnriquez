@@ -1,7 +1,31 @@
 .hero .wrap {
-  text-shadow: 0 3px 2px rgba(0,0,0,.8);
+  text-shadow: 0 3px 2px rgba(150,150,150,.8);
 }
 
 .fade-8 .content {
   background: $overlay;
+}
+
+.whiteSlide[class*=fade] .content {
+  background: none;
+}
+
+.slide.whiteSlide {
+  color: hsla(4,40%,15%,.8);
+}
+.slide.whiteSlide svg {
+  fill: hsla(4,40%,15%,.8);
+}
+
+.nextSlide {
+  background: rgba(255,255,255,.8);
+  border-radius: 50px;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+
+  svg {
+    height: 55px;
+    width: 30px;
+  }
 }

@@ -3,7 +3,7 @@ if (!window.isMobile && ($('.slide.youtube').length > 0)) {
   var tv,
       tag = document.createElement('script'),
       firstScriptTag = document.getElementsByTagName('script')[0],
-      video = {'videoId': '58fRQF-dGhA', 'startSeconds': 0, 'endSeconds': 9, 'suggestedQuality': 'hd1080'};
+      video = {'videoId': 'ea-SqaOMipc', 'startSeconds': 0, 'endSeconds': 9, 'suggestedQuality': 'hd1080'};
       //another video id to try//-97LGPTZFrI//original//zsT8vLsniAo
       tag.src = 'https://www.youtube.com/player_api';
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
@@ -12,3 +12,6 @@ if (!window.isMobile && ($('.slide.youtube').length > 0)) {
   function onPlayerStateChange(e) { if (e.data === 1){ $('.slide .background').addClass('playing'); } else if (e.data === 0){ tv.seekTo(video.startSeconds) } } $(window).on('load ready resize', function(){ vidRescale(); }); 
   function vidRescale(){ var w = $(window).width()+200, h = $(window).height()+300, $elBackground = $('#background'); if (w/h > 16/9){ tv.setSize(w, w/16*9); $elBackground.css({'left': '0px'}); } else { tv.setSize(h/9*16, h); $elBackground.css({'left': -($elBackground.outerWidth()-w)/2}); } }
 }
+
+
+var rellax = new Rellax('.rellax');
