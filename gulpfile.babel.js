@@ -35,7 +35,8 @@ gulp.task('scripts', () => {
   return gulp.src([
     /* Add your JS files here, they will be combined in this order */
     // 'js/vendor/jquery-1.11.1.js',
-    './src/js/slides.min.js',
+    './src/js/slides.js',
+    './src/js/plugins.js',
     './src/js/custom.js'
   ])
     .pipe(concat('main.js'))
