@@ -266,6 +266,11 @@ small {
 	font-weight: 700 !important;
 }
 
+.georgeTestSize{
+  font-size: 8em;
+  opacity: 0.5;
+}
+
 @include media($phablet, max) {
 	
 	h1,
