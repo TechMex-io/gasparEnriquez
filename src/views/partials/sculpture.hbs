@@ -7,21 +7,21 @@
         <!-- Slide contents -->
         <div class="grid equal">
           <div class="col-6-12 left equalElement">
-              <img src="/assets/img/LaRosaDolorosaDeMiVidaLoca.jpg" width="100%" alt="">
-              <h1 class="">La Rosa Dolorosa de me Vida Loca</h1>
+              <img src={{@root.sculpture.img1.src}} width="100%" alt="">
+              <h1 class="">{{@root.sculpture.img1.title}}</h1>
               <p class="" style="margin-bottom: 0px">
-              <sub>1995<br>
-              Mixed-media installation<br>
-              8 x 8 x 8 ft<br>
-              Collection of the Artist</sub>
+              <sub>{{@root.sculpture.img1.year}}<br>
+              {{@root.sculpture.img1.medium}}<br>
+              {{@root.sculpture.img1.size}}<br>
+              {{@root.sculpture.img1.collection}}</sub>
               </p>
           </div>
 
           <div class="col-6-12 equalElement">
-            <h2 class="georgeTestSize">Sculpture</h2>
-            <p><a href="#">Link to series</a></p>
+            <h2 class="georgeTestSize">{{@root.sculpture.title}}</h2>
+            <p><a href="#">{{@root.sculpture.portfolioLink}}</a></p>
             <p class="">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, eum odio omnis esse repellat a, laboriosam velit officia quam, amet accusantium sapiente, ex pariatur debitis. Soluta aspernatur neque, necessitatibus minus.</p>
+            {{@root.sculpture.description}}</p>
           </div>
            {{!--arrow to next page--}}
           <div class="col-12-12">
