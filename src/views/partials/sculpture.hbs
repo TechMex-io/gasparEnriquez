@@ -1,4 +1,5 @@
 <section class="slide whiteSlide page-4">
+  {{> navBar/logoWithSideNav }}
   <div class="content">
     <div class="container">
       <div class="wrap left">
@@ -6,9 +7,9 @@
         <!-- Slide contents -->
         <div class="grid equal">
           <div class="col-6-12 left equalElement">
-              <img src="/assets/img/LaRosaDolorosaDeMiVidaLoca.jpg" height="800" alt="">
+              <img src="/assets/img/LaRosaDolorosaDeMiVidaLoca.jpg" width="100%" alt="">
               <h1 class="">La Rosa Dolorosa de me Vida Loca</h1>
-              <p class="">
+              <p class="" style="margin-bottom: 0px">
               <sub>1995<br>
               Mixed-media installation<br>
               8 x 8 x 8 ft<br>
@@ -22,6 +23,12 @@
             <p class="">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, eum odio omnis esse repellat a, laboriosam velit officia quam, amet accusantium sapiente, ex pariatur debitis. Soluta aspernatur neque, necessitatibus minus.</p>
           </div>
+           {{!--arrow to next page--}}
+          <div class="col-12-12">
+            <div class="ae-1 nextSlide">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg>
+            </div>
+          </div
       </div>
 
       </div><!-- /.wrap -->
