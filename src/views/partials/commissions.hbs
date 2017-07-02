@@ -1,38 +1,21 @@
-  <section class="slide whiteSlide page-7">
+  <section class="slide whiteSlide portfolio">
   {{> navBar/logoWithSideNav }}
     <div class="content">
       <div class="container">
-        <div class="wrap left">
+        <div class="wrap">
         
           <!-- Slide contents -->
-          <div class="grid equal">
-            <div class='col-10-12'>
-              <h2 class="georgeTestSize">{{@root.commissions.title}}</h2>
-            </div>
-            <div class="col-6-12 equalElement left">
-              
-              <p><a href="#">{{@root.commissions.portfolioLink}}</a></p>
-              <p class="">
-              {{@root.commissions.description}}</p>
-              <div class="col-6-12 left">
-                  <img src="/assets/img/Symbol.svg" alt="" width="400" class="symbol rellax" data-rellax-speed='.4'>
-              </div>
-            </div>
-          
-            <div class="col-6-12 equalElement right">
-              <img src={{@root.commissions.img1.src}} width="100%" alt="" class="">
-              <h1 class="">{{{@root.commissions.img1.title}}}</h1>
-              <p class="">
-              <sub>{{@root.commissions.img1.year}}<br>
-              {{@root.commissions.img1.medium}}<br>
-              {{@root.commissions.img1.size}}<br>
-              {{@root.commissions.img1.collection}}</sub>
-              </p>
-            </div>
-        </div>
+          <ul class="grid masonry fixedSpaces">
+            <li class="col-6-12">WIDE BOX</li>
+            <li class="col-3-12">SMALL BOX</li>
+            <li class="col-3-12">SMALL BOX</li>
+            <li class="col-3-12">SMALL BOX</li>
+            <li class="col-3-12">SMALL BOX</li>
+            <li class="col-3-12">SMALL BOX</li>
+          </ul>
 
-        </div><!-- /.wrap -->
-      </div>
-    </div>
+        </div>{{!--end wrap--}}
+      </div>{{!--end container--}}
+    </div>{{!--end content--}}
     <!--<div class="background" style="background: rgb(51,49,49);"></div>-->
   </section>
