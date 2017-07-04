@@ -1,5 +1,5 @@
 <section class="slide whiteSlide portfolio">
-  {{> navBar/logoWithSideNav }}
+  {{> navBar/fullNav }}
   <div class="content">
     <div class="container">
       <div class="wrap">
@@ -8,13 +8,13 @@
         <ul class="flex verticalCenter">
           <li class= "col-12-12"><h1> Portfolio (Series)</h1>
 
-          <li class="col-4-12"><a href="barrio.html"><img src='http://loremflickr.com/g/300/400/latina' alt=''/></a></li>
-          <li class="col-4-12"><img src='http://loremflickr.com/g/400/300/cholo' alt=''/></li>
-          <li class="col-4-12"><img src='http://loremflickr.com/g/300/350/pachuco' alt=''/></li>
+          <li class="col-4-12 padding-top-4"><a href="barrio.html"><img src={{ @root.mainPortfolio.series1.src }} alt=''/></a></li>
+          <li class="col-4-12 padding-top-4"><img src={{ @root.mainPortfolio.series2.src }}  alt=''/></li>
+          <li class="col-4-12 padding-top-4"><img src={{ @root.mainPortfolio.series3.src }}  alt=''/></li>
 
-          <li class="col-4-12"><img src='http://loremflickr.com/g/400/300/cholo' alt=''/></li>
-          <li class="col-4-12"><img src='http://loremflickr.com/g/300/350/pachuco' alt=''/></li>
-          <li class="col-4-12"><img src='http://loremflickr.com/g/300/400/latina' alt=''/></li>
+          <li class="col-4-12 padding-top-4"><img src={{ @root.mainPortfolio.series4.src }}  alt=''/></li>
+          <li class="col-4-12 padding-top-4"><img src={{ @root.mainPortfolio.series5.src }}  alt=''/></li>
+          <li class="col-4-12 padding-top-4"><img src={{ @root.mainPortfolio.series6.src }}  alt=''/></li>
 
         </ul>
 

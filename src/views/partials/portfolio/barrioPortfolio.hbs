@@ -8,8 +8,8 @@
         <ul class="flex verticalCenter">
           <li class= "col-12-12"><h1> Barrio Series</h1>
 
-          <li class="col-2-12 popupTrigger" data-popup-id="george"><img src='http://loremflickr.com/g/300/400/barrio' alt=''/></li>
-          <li class="col-2-12"><img src='http://loremflickr.com/g/400/300/cholo' alt=''/></li>
+          <li class="col-2-12 popupTrigger" data-popup-id="img1"><img src='http://loremflickr.com/g/300/400/barrio' alt=''/></li>
+          <li class="col-2-12 popupTrigger" data-popup-id="img2"><img src='http://loremflickr.com/g/400/300/cholo' alt=''/></li>
           <li class="col-2-12"><img src='http://loremflickr.com/g/300/350/lowrider' alt=''/></li>
           <li class="col-2-12"><img src='http://loremflickr.com/g/450/400/elpaso' alt=''/></li>
           <li class="col-2-12"><img src='http://loremflickr.com/g/400/350/vato' alt=''/></li>
@@ -24,7 +24,7 @@
 
         </ul>
 
-        <div class="popup" data-popup-id="george">
+        {{!--<div class="popup" data-popup-id="george">
           <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
           <div class="content">
             <!-- content -->
@@ -33,7 +33,59 @@
 
             </ul>
           </div>
-        </div>
+        </div>--}}
+
+        <section class="popup" data-popup-id="img1">
+          <div class="content">
+            <div class="container">
+              <div class="wrap">
+              
+                <div class="fix-7-12">
+                  <img src="/assets/img/tirandoTiempoSQ.jpg" class="wide" alt=""/>
+
+                  <span class="button actionButton"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-left"></use></svg></span>
+
+                  <span class="button actionButton popupTrigger" data-popup-id="img2"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use></svg></span>
+                </div>
+
+                <div class="fix-8-12">
+                  <h1 class="ae-5 fronLeft">Blah blah blah Title</h1>
+                  <div class="ae-6 fromrRight">
+                    <p>maybe image description</p>
+                    <a href="#" class="button pink cropBottom ae-7 fromCenter">inquire about purchasing</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="popup" data-popup-id="img2">
+          <div class="content">
+            <div class="container">
+              <div class="wrap">
+              
+                <div class="fix-7-12">
+                  <img src="/assets/img/ProscritaCrop.jpg" class="wide" alt=""/>
+
+                  <span class="button actionButton popupTrigger" data-popup-id="img1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-left"></use></svg></span>
+
+                  <span class="button actionButton"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use></svg></span>
+                </div>
+
+                <div class="fix-8-12">
+                  <h1 class="ae-5 fronLeft">Red title</h1>
+                  <div class="ae-6 fromrRight">
+                    <p>maybe image description 2</p>
+                    <a href="#" class="button pink cropBottom ae-7 fromCenter">inquire about purchasing</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
 
       </div>{{!--end wrap--}}
     </div>{{!--end container--}}
