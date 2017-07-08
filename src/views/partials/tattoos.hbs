@@ -6,26 +6,34 @@
         <!-- Slide contents -->
         <div class="grid equal">
           <div class="col-6-12 left equalElement">
-            <img src="/assets/img/MiQuerida-Madre.jpg" height="800" alt="" class="">
-              <h1 class="">Mi Querida Madre</h1>
+            <img src={{@root.tattoos.img1.src}} width="100%" alt="" class="">
+              <h1 class="">{{@root.tattoos.img1.title}}</h1>
               <p class="">
-              <sub>2006<br>
-              Giclée print<br>
-              42 x 37 3/4 in.<br>
-              Collection of El Paso Museum of Art</sub>
+              <sub>{{@root.tattoos.img1.year}}<br>
+              {{@root.tattoos.img1.medium}}<br>
+              {{@root.tattoos.img1.size}}<br>
+              {{@root.tattoos.img1.collection}}</sub>
               </p>
 
             
           </div>
           
           <div class="col-6-12 right equalElement">
-            <h2 class="georgeTestSize">Tattoos</h2>
-            <p><a href="#">Link to series</a></p>
+            <h2 class="georgeTestSize">{{@root.tattoos.title}}</h2>
+            <p><a href="#">{{@root.tattoos.portfolioLink}}</a></p>
             <P class="">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, eum odio omnis esse repellat a, laboriosam velit officia quam, amet accusantium sapiente, ex pariatur debitis. Soluta aspernatur neque, necessitatibus minus.</p>
+            {{@root.tattoos.description}}</p>
           
             <img src="/assets/img/Symbol.svg" alt="" width="600" class="symbol rellax" data-rellax-speed='-.6'>
           </div>
+
+           {{!--arrow to next page--}}
+          {{!--<div class="col-12-12">
+            <div class="ae-1 nextSlide">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg>
+            </div>
+          </div>--}}
+          
       </div>
 
       </div><!-- /.wrap -->

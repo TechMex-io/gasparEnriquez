@@ -1,3 +1,4 @@
+
 <section class="slide whiteSlide page-2">
   <div class="content">
     <div class="container">
@@ -8,27 +9,33 @@
           <div class="col-6-12 equalElement left">
             <div class="ae-3">
               <h2 class="series-title uppercase">{{ @root.barrios.title }}</h2>
-              <p><a href="#">Link to series</a></p>
+              <p><a href="#">{{ @root.barrios.portfolioLink }}</a></p>
               <p class="">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, eum odio omnis esse repellat a, laboriosam velit officia quam, amet accusantium sapiente, ex pariatur debitis. Soluta aspernatur neque, necessitatibus minus.
+                {{ @root.barrios.description }}
               </p>
               <div class="col-8-12 rellax right" data-rellax-speed="6">
-                <img src="/assets/img/Symbol.svg" alt="" width="600" class="symbol">
+                <img src="/assets/img/Symbol.svg" alt="" width="400" class="symbol">
               </div>
             </div>
               
           </div>
           
           <div class="col-6-12 equalElement">
-                <img src="/assets/img/tirandoTiempo.jpg" width="50%" alt="" class="">
-                <h5 class="">Tirando Tiempo (Doing Time)</h5>
+                <img src={{ @root.barrios.img1.src }} width="80%" alt="" class="">
+                <h5 class="">{{ @root.barrios.img1.title }}</h5>
                 <p class="">
-                <sub>1992<br>
-                Airbrushed acrylic on board<br>
-                48x36 in<br>
-                Collection of Joe Diaz</sub>
+                <sub>{{ @root.barrios.img1.year }}<br>
+                {{ @root.barrios.img1.medium }}<br>
+                {{ @root.barrios.img1.size }}<br>
+                {{ @root.barrios.img1.collection }}</sub>
                 </p>
           </div>
+          {{!--arrow to next page--}}
+          {{!--<div class="col-12-12">
+            <div class="ae-1 nextSlide">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg>
+            </div>
+          </div>--}}
       </div>
 
       </div><!-- /.wrap -->

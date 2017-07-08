@@ -1,0 +1,26 @@
+{
+  "series1": {
+    "src":"/assets/img/tirandoTiempoSQ.jpg",
+    "title": "Barrio<br>Series"
+  },
+  "series2": {
+    "src":"/assets/img/ProscritaCrop.jpg",
+    "title": "Charros<br>Series"
+  },
+  "series3": {
+    "src":"/assets/img/LaRosaDolorosaDeMiVidaLocaSQ.jpg",
+    "title": "Sculpture"
+  },
+  "series4": {
+    "src":"/assets/img/JohnValadezSQ.jpg",
+    "title": "Artist<br>Series"
+  },
+  "series5": {
+    "src":"/assets/img/MiQuerida-MadreSQ.jpg",
+    "title": "Tattoo<br>Series"
+  },
+  "series6": {
+    "src":"/assets/img/ElegyOnTheDeathOfCesar-ChavezSQ.jpg",
+    "title": "Commissions"
+  }
+}

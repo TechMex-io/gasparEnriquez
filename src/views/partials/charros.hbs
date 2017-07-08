@@ -2,25 +2,33 @@
   <div class="content">
     <div class="container">
       <div class="wrap left">
+
         <!-- Slide contents -->
         <div class="grid equal">
           <div class="col-6-12 equalElement">
-            <!--class .uppercase is not beging makeing text larger, .georgeTestSize located under .uppercase in framework.scss-->
-            <h2 class="georgeTestSize">Charros / Folklorico</h2>
-            <p><a href="#">Link to series</a></p>
-            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, eum odio omnis esse repellat a, laboriosam velit officia quam, amet accusantium sapiente, ex pariatur debitis. Soluta aspernatur neque, necessitatibus minus.</p>
+            
+            <h2 class="georgeTestSize">{{ @root.charros.title }}</h2>
+            <p><a href="#">{{ @root.charros.portfolioLink }}</a></p>
+            <p class="">{{ @root.charros.description }}</p>
           </div>
-          <div class="col-6-12 equalElement right">
-            <img src="/assets/img/Proscrita.jpg" width="100%" alt="">
-            <h2 class="">Proscrita</h2>
+          <div class="col-6-12 equalElement left">
+            <img src={{ @root.charros.img1.src }} width="100%" alt="">
+            <h2 class="">{{ @root.charros.img1.title }}</h2>
             <p class="">
-            <sub>1989<br>
-            Airbrushed acrylic on board<br>
-            27 3/4 x 59 7/8 in<br>
-            Collection of the Hunt Companies</sub>
+            <sub>{{ @root.charros.img1.year }}<br>
+            {{ @root.charros.img1.medium }}<br>
+            {{ @root.charros.img1.size }}<br>
+            {{ @root.charros.img1.collection }}</sub>
             </p>
           </div>
           
+          {{!--arrow to next page--}}
+          {{!--<div class="col-12-12">
+            <div class="ae-1 nextSlide">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg>
+            </div>
+          </div>--}}
+
         </div>
       </div><!--end wrap-->
     </div>
