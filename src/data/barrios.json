@@ -2,174 +2,174 @@
   "title": "Barrio Series",
   "portfolioLink": "Barrio Portfolio",
   "description": "You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man.",
-  "img1": {
-    "src":"/assets/img/tirandoTiempo.jpg",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
-  },
-  "portfolio":{
-    "img1": {
-    "src":"/assets/barrio/barrio_2.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+  "portfolioImages": [
+    {
+      "src":"tirandoTiempo.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img2": {
-    "src":"/assets/barrio/barrio_3.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_2.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img3": {
-    "src":"/assets/barrio/barrio_4.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_3.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img4": {
-    "src":"/assets/barrio/barrio_5.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_4.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img5": {
-    "src":"/assets/barrio/barrio_6.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_5.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img6": {
-    "src":"/assets/barrio/barrio_7.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_6.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img7": {
-    "src":"/assets/barrio/barrio_8.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_7.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img8": {
-    "src":"/assets/barrio/barrio_9.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_8.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img9": {
-    "src":"/assets/barrio/barrio_10.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_9.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img10": {
-    "src":"/assets/barrio/barrio_11.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_10.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img11": {
-    "src":"/assets/barrio/barrio_12.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_11.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img12": {
-    "src":"/assets/barrio/barrio_13.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_12.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img13": {
-    "src":"/assets/barrio/barrio_14.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_13.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img14": {
-    "src":"/assets/barrio/barrio_15.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_14.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img15": {
-    "src":"/assets/barrio/barrio_16.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_15.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img16": {
-    "src":"/assets/barrio/barrio_17.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_16.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img17": {
-    "src":"/assets/barrio/barrio_18.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_17.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img18": {
-    "src":"/assets/barrio/barrio_19.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_18.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img19": {
-    "src":"/assets/barrio/barrio_20.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_19.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     },
-    "img20": {
-    "src":"/assets/barrio/barrio_21.png",
-    "title": "Tirando Tiempo (Doing Time)",
-    "year": "1992",
-    "medium": "Airbrushed acrylic on board",
-    "size": "48x36 in",
-    "collection": "Collection of Joe Diaz"
+    {
+      "src":"barrio_20.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
+    },
+    {
+      "src":"barrio_21.png",
+      "title": "Tirando Tiempo (Doing Time)",
+      "year": "1992",
+      "medium": "Airbrushed acrylic on board",
+      "size": "48x36 in",
+      "collection": "Collection of Joe Diaz"
     }
-  }
+  ]
 }
