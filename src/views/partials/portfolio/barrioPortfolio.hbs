@@ -6,81 +6,13 @@
       
         <!-- Slide contents -->
         <ul class="flex verticalCenter">
-          <li class= "col-12-12"><h1> Barrio Series</h1>
- 
- 
- 
+          <li class= "col-12-12"><h1> Barrio Series</h1></li>
           {{#each @root.barrios.portfolioImages}}
-            <li class="col-2-12 popupTrigger" data-popup-id="{{this.src}}"><img src="/assets/barrio/{{ this.src }}"  alt=''/></li>
+
+            <li class="col-2-12"><a href="series-feature.html#{{ this.src }}"><img src="/assets/barrio/{{ this.src }}"  alt=''/></a></li>
+
           {{/each}}
-          
-          {{#each @root.barrios.portfolioImages}}
-            {{!--popup img1--}}
-            <section class="popup" data-popup-id="{{this.src}}">
-              <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-              <div class="content">
-                <div class="container">
-                  <div class="wrap">
-                  
-                    
-                    <div class="fix-7-12">
-                      <img src="/assets/barrio/{{ this.src }}" class="" alt=""/>
-                    </div>
-
-                    <div class="fix-8-12">
-                      <h2 class="ae-5 fronLeft">{{ this.title }}</h2>
-                      <div class="ae-6 fromrRight">
-                        <p>{{ this.size }}</p>
-                        {{!--<a href="#" class="button pink cropBottom ae-7 fromCenter">inquire about purchasing</a>--}}
-                      </div>
-                    </div>
-                    
-                    <ul class="grid">
-
-                        <li class="col-6-12">
-                          <a href="#" class="popupTrigger" data-popup-id="contact">inquire about purchasing</a>
-                        </li>
-                        <li class="col-6-12">
-                          <a href="#" style="font-size:1.5em;" data-popup-action="close">&#x24cd;</a>
-                        </li>
-                        
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </section>
-          {{/each}}
-
         </ul>
-
-
-        {{!--popup Contact Form--}}
-        <div class="popup animated" data-popup-id="contact">
-          <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-          <div class="content">
-            <div class="container">
-              <div class="wrap spaces">
-              
-                <h1 class="ae-1">gaspar enríquez - Barrio Series</h1>
-                <div class="ae-2"><p>All print are giclee (zhee-klay), and are generated from high resolution digital scans and printed with archival quality inks. </p></div>
-                <div class="fix-5-12 margin-top-6">
-                  <div class="pad shadow selected ae-3 popupContent">
-                    <form action="ajax-email.php" method="post" class="wide center" data-ajax-form="true">
-                      <div class="label ae-4 cropTop"><label class="cropTop opacity-5" for="name55">Your name</label></div>
-                      <input class="stroke ae-5 wide" id="name55" type="name" name="name" placeholder="Name" required/>
-                      <div class="label ae-6"><label class="opacity-5" for="email55">Email address</label></div>
-                      <input class="stroke ae-7 wide" id="email55" type="email" name="email" placeholder="Email" required/>
-                      <div class="label ae-8"><label class="opacity-5" for="message55">Message</label></div>
-                      <textarea class="left ae-9" id="message55" type="text" name="message" placeholder="Message" required></textarea>
-                      <input class="button wide pink ae-10 margin-top-2 cropBottom" type="submit" name="submit" value="Send message" data-success-text="Done!" data-success-class="green"/>
-                    </form>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
 
       </div>{{!--end wrap--}}
     </div>{{!--end container--}}
