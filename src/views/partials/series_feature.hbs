@@ -11,23 +11,26 @@
                 <div class="wrap">
 
                   <ul class="flex verticalCenter">
-                    <!--<li class= "col-12-12"><h2> Barrio Series</h2>-->
-                    <li class="col-12-12" >
-                      <!--<span class="button actionButton prevSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-left"></use></svg></span>-->
 
+                    <li class="col-1-12 leftArrow prevSlide">&#60;</li>
+
+                      <li class="col-10-12" >
                       <img class="popupTrigger" data-popup-id="contact" src="/assets/barrio/{{ this.src }}.png"  alt='gaspar enriquez, {{ this.title }}'/>
-                      
-                      <!--<span class="button actionButton nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use></svg></span>-->
+                      </li>
 
-                      <!--<span class="nextSlide">&#62;</span>-->
+                      <li class="col-1-12 rightArrow nextSlide">&#62;</li>
 
                       </li>
                     <li class="col-12-12"><h5 class="ae-1">{{ this.title }}</h5></li>
                     <li class="col-12-12"><h5 class="ae-2">{{ this.size }}</h5></li>
 
-                    <li class="col-6-12"><span class="popupTrigger ae-2" data-popup-id="contact">inquire about purchasing<span></li>
-                    
-                    <li class="col-6-12"><span class="ae-2"><a href="barrio-series.html">Barrio Series</a><span></li>
+                    <li class="col-6-12">
+                    {{#if this.print}}
+                      <span class="popupTrigger ae-2 popUp" data-popup-id="contact">inquire about purchasing<span>
+                    {{/if}}
+                    </li>
+
+                    <li class="col-6-12"><span class="ae-2"><a href="barrio-series.html" class="link">Barrio Series</a><span></li>
 
                   </ul>
 

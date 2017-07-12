@@ -2,3 +2,86 @@
     font-size: 1rem;
     padding: 0;
 }
+
+.leftArrow,
+.rightArrow {
+  font-size: 2.5em;
+  opacity: 0.5;
+  transition-timing-function: ease-out;
+  transition: 0.3s;
+}
+
+.leftArrow:hover,
+.rightArrow:hover {
+  color: black;
+  font-size: 3em;
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+}
+
+li span.popUp {
+  transition-timing-function: ease-out;
+  transition: 0.3s;
+}
+
+li span.popUp:hover {
+  color: red;
+  font-size: 1.1em;
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+  // this isn't working
+  transition-timing-function: ease-out;
+  transition: 0.3s;
+}
+
+a.link {
+  transition-timing-function: ease-out;
+  transition: 0.3s;
+}
+a.link:hover {
+  color: blue;
+  font-size: 1.1em;
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+  // this isn't working
+  transition-timing-function: ease-out;
+  transition: 0.3s;
+}
+
+.img__wrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(139, 69, 19, 0.7);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.zoom {
+  overflow: hidden;
+}
+.zoom:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
