@@ -11,13 +11,29 @@
                 <div class="wrap">
 
                   <ul class="flex verticalCenter">
-                    <li class= "col-12-12"><h2> Barrio Series</h2>
-                    <li class="col-5-12 popupTrigger" data-popup-id="contact"><img src="/assets/barrio/{{ this.src }}"  alt='gaspar enriquez, {{ this.title }}'/></li>
-                    <li><h2 class="ae-5">{{ this.title }}</h2></li>
-                    <li class="ae-6">
-                      <p>{{ this.size }}</p>
-                      <p class="popupTrigger" data-popup-id="contact">inquire about purchasing</p> 
+                    <!--<li class= "col-12-12"><h2> Barrio Series</h2>-->
+                    <li class="col-12-12" >
+                      <!--<span class="button actionButton prevSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-left"></use></svg></span>-->
+
+                      <img class="popupTrigger" data-popup-id="contact" src="/assets/barrio/{{ this.src }}.png"  alt='gaspar enriquez, {{ this.title }}'/>
+                      
+                      <!--<span class="button actionButton nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use></svg></span>-->
+
+                      <!--<span class="nextSlide">&#62;</span>-->
+
+                      </li>
+                    <li class="col-12-12"><h5 class="ae-1">{{ this.title }}</h5></li>
+                    <li class="col-12-12"><h5 class="ae-2">{{ this.size }}</h5></li>
+                    <li class="col-6-12"><span class="popupTrigger ae-2" data-popup-id="contact">inquire about purchasing<span></li>
+                    <li class="col-6-12"><span class="ae-2"><a href="barrio-series.html">Barrio Series</a><span></li>
+                    <!--<li class="col-6-12">
+                    {{#if this.print}}
+                      <p class="popupTrigger ae-2" data-popup-id="contact">inquire about purchasing</p>
+                    {{/if}}
                     </li>
+                    <li class="col-6-12">
+                      <p class="ae-2"><a href="barrio-series.html">Barrio Series<a></p>
+                    </li>-->
                   </ul>
 
                 </div>
