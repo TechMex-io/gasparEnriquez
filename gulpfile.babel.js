@@ -62,7 +62,7 @@ gulp.task('sass', () => {
 });
 
 gulp.task('assets', () => {
-  gulp.src('./src/assets/**/*')
+  return gulp.src('./src/assets/**/*')
     .pipe(plumber())
     .pipe(gulp.dest('./dist/assets'))
     /* Reload the browser CSS after every change */
