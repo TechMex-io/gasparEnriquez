@@ -7,7 +7,8 @@
         <div class="grid equal">
           <h2 class="georgeTestSize">{{@root.commissions.title}}</h2>
           <div class="col-6-12 equalElement left">
-            <p><a href="#">{{@root.commissions.portfolioLink}}</a></p>
+            <a href={{ @root.commissions.portfolioLink }} class="button round stroke grey">
+              <p style="margin-bottom: 0px;">Public Art Portfolio</p></a>
             <p class="">
               {{@root.commissions.description}}</p>
             <div class='col-8-12 right rellax' data-rellax-speed='2.2'>
