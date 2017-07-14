@@ -2,12 +2,96 @@
   "title": "Sculpture",
   "portfolioLink": "sculpture-series.html",
   "description": "Invest, innovation paradigm innovation, capacity building. Move the needle compassion outcomes, citizen-centered a sustainable. Cultivate humanitarian sustainable, commitment challenges and opportunities justice. Expose the truth commitment humanitarian save the world strategize collaborate philanthropy dynamic our work. Sustainable paradigm game-changer scalable, and. Gender rights; low-hanging fruit humanitarian ideate circular progress NGO energize. ",
-  "img1": {
-    "src":"/assets/img/LaRosaDolorosaDeMiVidaLoca.jpg",
-    "title": "La Rosa Dolorosa de me Vida Loca",
-    "year": "1995",
-    "medium": "Mixed-media installation",
-    "size": "8 x 8 x 8 ft",
-    "collection": "Collection of the Artist"
-  }
+  "portfolioImages": [
+    {
+      "src":"La Rosa Dolorosa de Mid Vida Loca",
+      "title": "La Rosa Dolorosa de Mid Vida Loca",
+      "year": "1995",
+      "medium": "Repoussé, electroformed, and photo-etched metal",
+      "size": "Size",
+      "collection": "Collection of ...",
+      "print": false
+    },{
+      "src":"Luis' Heart",
+      "title": "Luis' Heart",
+      "year": "year",
+      "medium": "Repoussé, electroformed, and photo-etched metal",
+      "size": "Size",
+      "collection": "Collection of ...",
+      "print": false
+    },{
+      "src":"La Cholita Guitar",
+      "title": "La Cholita Guitar",
+      "year": "year",
+      "medium": "Repoussé, electroformed, and photo-etched metal",
+      "size": "Size",
+      "collection": "Collection of ...",
+      "print": false
+    },{
+      "src":"La Familia#8",
+      "title": "La Familia#8",
+      "year": "year",
+      "medium": "Repoussé, electroformed, and photo-etched metal",
+      "size": "Size",
+      "collection": "Collection of ...",
+      "print": false
+    },{
+      "src":"La Familia#7",
+      "title": "La Familia#7",
+      "year": "year",
+      "medium": "Repoussé, electroformed, and photo-etched metal",
+      "size": "Size",
+      "collection": "Collection of ...",
+      "print": false
+    },{
+      "src":"La Familia#1",
+      "title": "La Familia#1",
+      "year": "year",
+      "medium": "Repoussé, electroformed, and photo-etched metal",
+      "size": "Size",
+      "collection": "Collection of ...",
+      "print": false
+    },{
+      "src":"La Familia#6",
+      "title": "La Familia#6",
+      "year": "year",
+      "medium": "Repoussé, electroformed, and photo-etched metal",
+      "size": "Size",
+      "collection": "Collection of ...",
+      "print": false
+    },{
+      "src":"La Familia#4",
+      "title": "La Familia#4",
+      "year": "year",
+      "medium": "Repoussé, electroformed, and photo-etched metal",
+      "size": "Size",
+      "collection": "Collection of ...",
+      "print": false
+    },{
+      "src":"La Familia#3",
+      "title": "La Familia#3",
+      "year": "year",
+      "medium": "Repoussé, electroformed, and photo-etched metal",
+      "size": "Size",
+      "collection": "Collection of ...",
+      "print": false
+    },{
+      "src":"La Familia#5",
+      "title": "La Familia#5",
+      "year": "year",
+      "medium": "Repoussé, electroformed, and photo-etched metal",
+      "size": "Size",
+      "collection": "Collection of ...",
+      "print": false
+    }
+  ]
 }
+
+  // "img1": {
+  //   "src":"/assets/img/LaRosaDolorosaDeMiVidaLoca.jpg",
+  //   "title": "La Rosa Dolorosa de me Vida Loca",
+  //   "year": "1995",
+  //   "medium": "Mixed-media installation",
+  //   "size": "8 x 8 x 8 ft",
+  //   "collection": "Collection of the Artist"
+  // }
