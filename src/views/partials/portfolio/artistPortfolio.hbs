@@ -6,10 +6,12 @@
       
         <!-- Slide contents -->
         <ul class="flex verticalCenter">
-          <li class= "col-12-12"><h1> Artist Portfolio (placeholder page)</h1><br>
-          <p>See Barrio page for sample page</p></li>
+          <li class= "col-12-12"><h1> Artist Series</h1></li>
+          {{#each @root.artists.portfolioImages}}
 
+            <li class="col-2-12"><div class="zoom"><a href="artist-series-feature.html#{{ this.src }}"><img src="/assets/artist/{{ this.src }}.png"  alt=''/></a></div></li>
 
+          {{/each}}
         </ul>
 
       </div>{{!--end wrap--}}
