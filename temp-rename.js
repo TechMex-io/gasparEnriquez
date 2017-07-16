@@ -1,12 +1,12 @@
 const fs = require('fs');
 
- const moveFrom = './src/assets/tattoo';
-const pathTo = './src/assets/tattoo';
+ const moveFrom = './src/assets/sculpture';
+const pathTo = './src/assets/sculpture';
 
 fs.readdir(moveFrom, (err, files) => {
   if (err) return;
   files.forEach( file => {
-    fs.rename( `${pathTo}/${file}`, pathTo + '/' + file.replace(' ', '-') );
+    fs.rename( `${pathTo}/${file}`, pathTo + '/' + file.split(' ').join('-') );
   });
 
 });  
