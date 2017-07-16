@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-/* const moveFrom = './src/assets/tattoo';
+ const moveFrom = './src/assets/tattoo';
 const pathTo = './src/assets/tattoo';
 
 fs.readdir(moveFrom, (err, files) => {
@@ -9,16 +9,31 @@ fs.readdir(moveFrom, (err, files) => {
     fs.rename( `${pathTo}/${file}`, pathTo + '/' + file.replace(' ', '-') );
   });
 
-});  */
+});  
 
 
-const VerEx = require('verbal-expressions');
 
-const fileToRead = './src/data/barrios.json';
-fs.readFile(fileToRead, 'utf8', (err, data) => {
-  console.log(data);
-  if (err) return;
-  let result = VerEx().word('"src":"').replace(" ", "-");
-  // let result = data.replace(/"src"/g, '"replacement"');
-  console.log(result);
-});
+// "[^"]+c":\"[a-z][A-Z]|(\+)
+// \"[a-z][A-Z]|
+
+// "[^"]+c":".*
+
+
+// const fileToRead = './src/data/barrios.json';
+// fs.readFile(fileToRead, 'utf8', (err, data) => {
+//   if (err) return;
+
+//   const regex = /"[^"]+c":".*/g;
+
+
+
+  
+//   let result = data.match(regex);
+//   // console.log(result);
+//   const replaced = result.map( line => {
+    
+//     return line.split(' ').join('-');
+//     fs.write
+//   });
+//   console.log(replaced);
+// });
