@@ -20,7 +20,7 @@
           <li class="col-4-12">
             <a href="barrio-series.html">
               <figure class="image-effect__push-up">
-                <img src="{{ @root.mainPortfolio.series1.src }}" alt='{{ @root.mainPortfolio.series1.title }}'/>
+                <img src="{{ @global.baseurl }}{{ @root.mainPortfolio.series1.src }}" alt='{{ @root.mainPortfolio.series1.title }}'/>
                 <figcaption>
                   <h3 class="h1">Barrio Series</h3>
                   <p>A description can be added here.</p> 
@@ -29,15 +29,15 @@
             </a>
           </li>
 
-          <li class="col-4-12"><a href="charros-series.html"><img src={{ @root.mainPortfolio.series2.src }}  alt='Charros Series by Gaspar Enriquez'/></a></li>
+          <li class="col-4-12"><a href="charros-series.html"><img src={{ @global.baseurl }}{{ @root.mainPortfolio.series2.src }}  alt='Charros Series by Gaspar Enriquez'/></a></li>
 
-          <li class="col-4-12"><a href="sculpture-series.html"><img src={{ @root.mainPortfolio.series3.src }}  alt='Sculpture Series by Gaspar Enriquez'/></a></li>
+          <li class="col-4-12"><a href="sculpture-series.html"><img src={{ @global.baseurl }}{{ @root.mainPortfolio.series3.src }}  alt='Sculpture Series by Gaspar Enriquez'/></a></li>
         
-          <li class="col-4-12"><a href="artist-series.html"><img src={{ @root.mainPortfolio.series4.src }}  alt='Artist Series by Gaspar Enriquez'/></a></li>
+          <li class="col-4-12"><a href="artist-series.html"><img src={{ @global.baseurl }}{{ @root.mainPortfolio.series4.src }}  alt='Artist Series by Gaspar Enriquez'/></a></li>
 
-          <li class="col-4-12"><a href="tattoos-series.html"><img src={{ @root.mainPortfolio.series5.src }}  alt='Tattoo Series by Gaspar Enriquez'/></a></li>
+          <li class="col-4-12"><a href="tattoos-series.html"><img src={{ @global.baseurl }}{{ @root.mainPortfolio.series5.src }}  alt='Tattoo Series by Gaspar Enriquez'/></a></li>
           
-          <li class="col-4-12"><a href="commissions-series.html"><img src={{ @root.mainPortfolio.series6.src }}  alt='Public Art Commissions by Gaspar Enriquez'/></a></li>
+          <li class="col-4-12"><a href="commissions-series.html"><img src={{ @global.baseurl }}{{ @root.mainPortfolio.series6.src }}  alt='Public Art Commissions by Gaspar Enriquez'/></a></li>
         </ul>
 
       </div>{{!--end wrap--}}

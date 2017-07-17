@@ -123,7 +123,7 @@ gulp.task('default', ['build', 'watch', 'serve']);
 
 // Deployment tasks
 gulp.task('deploy', () => {
-  deploySite(process.argv[3]);
+  return deploySite(process.argv[3]);
 });
 
 const deploySite = (deploymentEnv) => {
@@ -142,7 +142,7 @@ const deploySite = (deploymentEnv) => {
   }
 
   if (deploymentEnv === '--dev') {
-    gulp.src('./dist/**/*')
+    return gulp.src('./dist/**/*')
       .pipe(ghPages());
   }
 
