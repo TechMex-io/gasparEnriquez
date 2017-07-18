@@ -1,0 +1,34 @@
+{{> head }}
+  
+{{> svg }} 
+
+
+<!--Main Portfolio Series-->
+{{> navBar/logoWithSideNav }}
+<section class="slide whiteSlide barrio">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <h2 class="h1 padding-bottom-4">Barrio Series</h2>
+        <!-- Slide contents -->
+        <ul class="flex verticalCenter">
+          
+          {{#each @root.barrios.portfolioImages}}
+
+            <li class="col-2-12"><div class="zoom"><a href="image/#{{ this.src }}"><img src="{{@global.baseurl}}assets/barrio/{{ this.src }}.png"  alt=''/></a></div></li>
+            
+          {{/each}}
+        </ul>
+
+
+      </div>{{!--end wrap--}}
+    </div>{{!--end container--}}
+  </div>{{!--end content--}}
+  <!--<div class="background" style="background: rgb(51,49,49);"></div>-->
+</section>
+
+
+
+
+{{> footer }}

@@ -36,7 +36,7 @@ gulp.task('hbs', () => {
         data: './src/data/**/*.{js,json}'
       })
       .data({
-        baseurl: 'https://techmex-io.github.io/gasparEnriquez/'
+        baseurl: '/'
       })
   )
     .pipe(gulp.dest('./dist/'))

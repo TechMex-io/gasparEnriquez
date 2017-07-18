@@ -1,15 +1,22 @@
+{{> head }}
+  
+{{> svg }} 
+
+
+<!--Main Portfolio Series-->
 {{> navBar/logoWithSideNav }}
 <section class="slide whiteSlide portfolio">
   <div class="content">
     <div class="container">
       <div class="wrap">
       
+        <h2 class="h2 padding-bottom-4">Charros Series</h2>
         <!-- Slide contents -->
         <ul class="flex verticalCenter">
-          <li class= "col-12-12"><h1> Sculpture</h1></li>
-          {{#each @root.sculpture.portfolioImages}}
+          
+          {{#each @root.charros.portfolioImages}}
 
-            <li class="col-2-12"><div class="zoom"><a href="sculpture-series-feature.html#{{ this.src }}"><img src="/assets/sculpture/{{ this.src }}.png"  alt=''/></a></div></li>
+            <li class="col-2-12"><div class="zoom"><a href="image/#{{ this.src }}"><img src="/assets/charro/{{ this.src }}.png"  alt=''/></a></div></li>
 
           {{/each}}
         </ul>
@@ -19,3 +26,6 @@
   </div>{{!--end content--}}
   <!--<div class="background" style="background: rgb(51,49,49);"></div>-->
 </section>
+
+
+{{> footer }}
