@@ -1,26 +1,26 @@
 {
   "series1": {
-    "src":"/assets/img/tirandoTiempo.jpg",
+    "src":"tirandoTiempoSQ.jpg",
     "title": "Barrio<br>Series"
   },
   "series2": {
-    "src":"/assets/img/Proscrita.jpg",
+    "src":"ProscritaCrop.jpg",
     "title": "Charros<br>Series"
   },
   "series3": {
-    "src":"/assets/img/LaRosaDolorosaDeMiVidaLoca.jpg",
+    "src":"LaRosaDolorosaDeMiVidaLocaSQ.jpg",
     "title": "Sculpture"
   },
   "series4": {
-    "src":"/assets/img/JohnValadez.jpg",
+    "src":"JohnValadezSQ.jpg",
     "title": "Artist<br>Series"
   },
   "series5": {
-    "src":"/assets/img/MiQuerida-Madre.jpg",
+    "src":"MiQuerida-MadreSQ.jpg",
     "title": "Tattoo<br>Series"
   },
   "series6": {
-    "src":"/assets/img/ElegyOnTheDeathOfCesar-Chavez.jpg",
+    "src":"ElegyOnTheDeathOfCesar-ChavezSQ.jpg",
     "title": "Commissions"
   }
 }
