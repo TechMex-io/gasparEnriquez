@@ -1,0 +1,44 @@
+<section class="slide whiteSlide page-5">
+  <div class="content">
+    <div class="container">
+      <div class="wrap left">
+      
+        <!-- Slide contents -->
+        <div class="grid equal">
+          <h2 class="georgeTestSize">{{@root.commissions.title}}</h2>
+          <div class="col-6-12 equalElement left">
+            <a href={{ @root.commissions.portfolioLink }} class="button round stroke grey">
+              <p style="margin-bottom: 0px;">Public Art Portfolio</p></a>
+            <p class="">
+              {{@root.commissions.description}}</p>
+            <div class='col-8-12 right rellax' data-rellax-speed='2.2'>
+              <img src="/assets/svg/Symbol.svg" alt="" width="400" class="symbol">
+            </div>
+            
+              
+          </div>
+          
+          <div class="col-6-12 equalElement right">
+            <img src={{@root.commissions.img1.src}} width="660" alt="" class="">
+            <h2 class="">{{{@root.commissions.img1.title}}}</h2>
+            <p class="">
+            <sub>{{@root.commissions.img1.year}}<br>
+            {{@root.commissions.img1.medium}}<br>
+            {{@root.commissions.img1.size}}<br>
+            {{@root.commissions.img1.collection}}</sub>
+            </p>
+          </div>
+
+          {{!--arrow to next page--}}
+          {{!--<div class="col-12-12">
+            <div class="ae-1 nextSlide">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg>
+            </div>
+          </div>--}}
+      </div>
+
+      </div><!-- /.wrap -->
+    </div>
+  </div>
+  <!--<div class="background" style="background: rgb(51,49,49);"></div>-->
+</section>
