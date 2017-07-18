@@ -1,0 +1,41 @@
+
+<section class="slide whiteSlide page-2">
+  <div class="content">
+    <div class="container">
+      <div class="wrap left">
+        
+        <!-- Slide contents -->
+        <div class="grid equal">
+          <div class="col-6-12 equalElement left">
+            <div class="ae-3">
+              <h2 class="series-title uppercase">{{ @root.barrios.title }}</h2>
+              <a href={{ @root.barrios.portfolioLink }} class="button round stroke grey"><p style="margin-bottom: 0px;">Barrio Portfolio</p></a>
+              <p class="">
+                {{ @root.barrios.description }}
+              </p>
+              <div class="col-8-12 rellax right" >
+                {{!--removed--> data-rellax-speed="6"  --from div above so i can click on the link button--}}
+                <img src="/assets/svg/Symbol.svg" alt="" width="400" class="symbol">
+              </div>
+            </div>
+              
+          </div>
+          
+          <div class="col-6-12 equalElement">
+                <img src="/assets/barrio/{{ @root.barrios.portfolioImages.3.src }}.png" width="" alt="" class="">
+                <h5 class="">{{ @root.barrios.portfolioImages.3.title }}</h5>
+                <p class="">
+                <sub>{{ @root.barrios.portfolioImages.3.year }}<br>
+                {{ @root.barrios.portfolioImages.3.medium }}<br>
+                {{ @root.barrios.portfolioImages.3.size }}<br>
+                {{ @root.barrios.portfolioImages.3.collection }}</sub>
+                </p>
+          </div>
+
+      </div>
+
+      </div><!-- /.wrap -->
+    </div>
+  </div>
+  <!--<div class="background" style="background: rgb(51,49,49);"></div>-->
+</section>
