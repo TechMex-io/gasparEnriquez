@@ -12,11 +12,17 @@
       
         <h2 class="h2 padding-bottom-4">Charros Series</h2>
         <!-- Slide contents -->
-        <ul class="flex verticalCenter">
+        <ul class="grid masonry fixedSpaces">
           
           {{#each @root.charros.portfolioImages}}
 
-            <li class="col-2-12"><div class="zoom"><a href="image/#{{ this.src }}"><img src="/assets/charro/{{ this.src }}.png"  alt=''/></a></div></li>
+            <li class="col-4-12">
+              <div class="zoom">
+                <a href="image/#{{ this.src }}">
+                  <img src="/assets/charro/jpg/{{ this.src }}.jpg"  alt=''/>
+                </a>
+              </div>
+            </li>
 
           {{/each}}
         </ul>
