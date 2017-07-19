@@ -6,7 +6,8 @@
         <!-- Slide contents -->
         <div class="grid equal">
           <div class="col-6-12 left equalElement">
-              <img src={{@root.sculpture.img1.src}} width="100%" alt="">
+            <a href="{{@global.baseurl}}portfolio/sculpture-series/">
+              <img src="{{@global.baseurl}}assets/sculpture/jpg/{{ @root.sculpture.portfolioImages.0.src }}.jpg"width="100%" alt=""></a>
               <h1 class="">{{@root.sculpture.img1.title}}</h1>
               <p class="" style="margin-bottom: 0px">
               <sub>{{@root.sculpture.img1.year}}<br>
@@ -18,7 +19,7 @@
 
           <div class="col-6-12 equalElement">
             <h2 class="georgeTestSize">{{@root.sculpture.title}}</h2>
-            <a href={{ @root.sculpture.portfolioLink }} class="button round stroke grey">
+            <a href="{{@global.baseurl}}portfolio/sculpture-series/" class="button round stroke grey">
               <p style="margin-bottom: 0px;">Sculpture Portfolio</p></a>
             <p class="">
             {{@root.sculpture.description}}</p>
