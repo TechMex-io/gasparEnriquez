@@ -17,11 +17,10 @@
           {{#each @root.charros.portfolioImages}}
 
             <li class="col-4-12">
-              <div class="zoom">
-                <a href="image/#{{ this.src }}">
-                  <img src="/assets/charro/jpg/{{ this.src }}.jpg"  alt=''/>
-                </a>
-              </div>
+              <figure class="image-effect__scale-up">
+                <img src="/assets/charro/jpg/{{ this.src }}.jpg"  alt=''/>
+                <a href="image/#{{ this.src }}"></a>
+              </figure>
             </li>
 
           {{/each}}
