@@ -1,0 +1,30 @@
+  {{> head }}
+    
+  {{> svg }} 
+
+  {{> navBar/logoWithSideNav }}
+  <!--moved to inside each section-->
+
+<section class="slide whiteSlide page-5">
+  <div class="content">
+    <div class="container">
+      <div class="wrap left">
+      
+        <!-- Slide contents -->
+        <div class="grid equal">
+          <h2 class="georgeTestSize">Exhbitions Placeholder</h2>
+          <div class="col-12-12 equalElement">
+            <p class="">{{@root.commissions.description}}</p>
+            <div class='col-8-12 right rellax' data-rellax-speed='2.2'>
+              <img src="{{@global.baseurl}}assets/svg/Symbol.svg" alt="" width="400" class="symbol">
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.wrap -->
+    </div>
+  </div>
+  <!--<div class="background" style="background: rgb(51,49,49);"></div>-->
+</section>
+
+  {{> footer }}
