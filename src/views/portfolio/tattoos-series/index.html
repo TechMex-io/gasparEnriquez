@@ -18,11 +18,10 @@
           {{#each @root.tattoos.portfolioImages}}
 
             <li class="col-4-12">
-              <div class="zoom">
-                <a href="image/#{{ this.src }}">
-                  <img src="{{@global.baseurl}}assets/tattoo/jpg/{{ this.src }}.jpg"  alt=''/>
-                </a>
-              </div>
+              <figure class="image-effect__scale-up">
+                <img src="{{@global.baseurl}}assets/tattoo/jpg/{{ this.src }}.jpg"  alt=''/>
+                <a href="image/#{{ this.src }}"></a>
+              </figure>
             </li>
 
           {{/each}}
