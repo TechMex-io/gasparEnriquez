@@ -89,15 +89,12 @@
 
 /* image-effect__scale-up
    ----------------------------- */
-.image-effect__scale-up figcaption {
-    -webkit-transform: translateY(100%);
-    transform: scale(1.2);
-}
 
-/* .image-effect__scale-up:hover > img {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-} */
+ .image-effect__scale-up:hover > img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+} 
+
 
 
 

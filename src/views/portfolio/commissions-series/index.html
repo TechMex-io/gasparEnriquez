@@ -12,11 +12,16 @@
       
         <h2 class="h1 padding-bottom-4">Public Art &amp; Commissions</h2>
         <!-- Slide contents -->
-        <ul class="flex verticalCenter">
+        <ul class="grid masonry fixedSpaces">
           
           {{#each @root.commissions.portfolioImages}}
 
-            <li class="col-2-12"><div class="zoom"><a href="image/#{{ this.src }}"><img src="{{@global.baseurl}}assets/commissions/{{ this.src }}.png"  alt=''/></a></div></li>
+            <li class="col-4-12">
+              <figure class="image-effect__scale-up">
+                <img src="{{@global.baseurl}}assets/commissions/jpg/{{ this.src }}.jpg"  alt=''/>
+                <a href="image/#{{ this.src }}"></a>
+              </figure>
+            </li>
 
           {{/each}}
         </ul>

@@ -14,4 +14,4 @@ if (!window.isMobile && ($('.slide.youtube').length > 0)) {
 }
 
 
-var rellax = new Rellax('.rellax');
+// var rellax = new Rellax('.rellax');

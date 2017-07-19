@@ -22,7 +22,7 @@
       "print": true
     },
     {
-      "src":"barrio_4",
+      "src":"barrio-4",
       "title": "xxx",
       "year": "1992",
       "medium": "Airbrushed acrylic on board",
@@ -112,7 +112,7 @@
       "print": true
     },
     {
-      "src":"barrio_14",
+      "src":"barrio-14",
       "title": "xxxx",
       "year": "1992",
       "medium": "Airbrushed acrylic on board",
@@ -121,7 +121,7 @@
       "print": true
     },
     {
-      "src":"barrio_15",
+      "src":"barrio-15",
       "title": "xxxxxx",
       "year": "1992",
       "medium": "Airbrushed acrylic on board",
@@ -184,8 +184,8 @@
       "print": true
     },
     {
-      "src":"Begainging-of-an-Attitude-1",
-      "title": "Begainging of an Attitude-1",
+      "src":"Beginning-of-an-Attitude-1",
+      "title": "Beginning of an Attitude-1",
       "year": "year",
       "medium": "medium",
       "size": "size",
@@ -193,8 +193,8 @@
       "print": true
     },
     {
-      "src":"Begainging-of-an-Attitude-2",
-      "title": "Begainging of an Attitude-2",
+      "src":"Beginning-of-an-Attitude-2",
+      "title": "Beginning of an Attitude-2",
       "year": "year",
       "medium": "medium",
       "size": "size",

@@ -8,12 +8,13 @@
           <div class="col-6-12 equalElement">
             
             <h2 class="georgeTestSize">{{ @root.charros.title }}</h2>
-            <a href={{ @root.charros.portfolioLink }} class="button round stroke grey">
+            <a href="{{@global.baseurl}}portfolio/charros-series/"class="button round stroke grey">
               <p style="margin-bottom: 0px;">Charros Portfolio</p></a>
             <p class="">{{ @root.charros.description }}</p>
           </div>
           <div class="col-6-12 equalElement left">
-            <img src={{ @root.charros.img1.src }} width="100%" alt="">
+            <a href="{{@global.baseurl}}portfolio/charros-series/">
+            <img src="{{@global.baseurl}}assets/charro/jpg/{{ @root.charros.portfolioImages.3.src }}.jpg" width="100%" alt=""></a>
             <h2 class="">{{ @root.charros.img1.title }}</h2>
             <p class="">
             <sub>{{ @root.charros.img1.year }}<br>
