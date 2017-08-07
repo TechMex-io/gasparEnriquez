@@ -85,3 +85,21 @@ a.link:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+// Gaspar Logo in nav bar
+.noShow{
+  display: none;
+}
+
+.line_decoration {
+  background-color: #835C3B;
+  height: 3px;
+  position: fixed;
+  min-width: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+  
+
+}

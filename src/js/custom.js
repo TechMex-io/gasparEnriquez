@@ -15,3 +15,22 @@ if (!window.isMobile && ($('.slide.youtube').length > 0)) {
 
 
 // var rellax = new Rellax('.rellax');
+$(document).ready( function() {
+
+// DELETE -- this works but had issues with other pages with the same classes
+//  if ( $('body').hasClass('firstSlide') && $('body').hasClass('stage-1') ){
+//     $('svg.logo').addClass('noShow');
+//   }
+
+ if ( document.querySelector('section.hero') ){
+  $('svg.logo').addClass('noShow');
+  }
+// DELETE -- jquery and click versus scroll
+  // var bodyTag = document.getElementsByTagName("BODY")[0];
+  // bodyTag.addEventListener("click", function(){
+  $(window).scroll(function() {
+    // $('svg.logo').removeClass('noShow');
+    document.querySelector('svg.logo').classList.remove('noShow');
+  });
+
+});
