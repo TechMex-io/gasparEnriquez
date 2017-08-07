@@ -21,10 +21,9 @@ $(document).ready( function() {
 //  if ( $('body').hasClass('firstSlide') && $('body').hasClass('stage-1') ){
 //     $('svg.logo').addClass('noShow');
 //   }
-
- if ( document.querySelector('section.hero') ){
-  $('svg.logo').addClass('noShow');
-  }
+  if ( document.querySelector('section.hero') ){
+    $('svg.logo').addClass('noShow');
+    }
 // DELETE -- jquery and click versus scroll
   // var bodyTag = document.getElementsByTagName("BODY")[0];
   // bodyTag.addEventListener("click", function(){
