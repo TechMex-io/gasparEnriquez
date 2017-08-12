@@ -95,11 +95,10 @@ a.link:hover {
   background-color: #835C3B;
   height: 3px;
   position: fixed;
-  min-width: auto;
+  width: 100%;
   top: 0;
   left: 0;
-  width: 100%;
+  right: 0;
   z-index: 1050;
-  
 
 }
