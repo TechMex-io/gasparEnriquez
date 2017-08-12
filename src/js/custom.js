@@ -23,6 +23,7 @@ $(document).ready( function() {
 //   }
   if ( document.querySelector('section.hero') ){
     $('svg.logo').addClass('noShow');
+    $('nav.panel.top.fixed.forceMobileView').removeClass('white');
     }
 // DELETE -- jquery and click versus scroll
   // var bodyTag = document.getElementsByTagName("BODY")[0];
@@ -30,6 +31,7 @@ $(document).ready( function() {
   $(window).scroll(function() {
     // $('svg.logo').removeClass('noShow');
     document.querySelector('svg.logo').classList.remove('noShow');
+    document.querySelector('nav.panel.top.fixed.forceMobileView').classList.add('white');
   });
 
 });
