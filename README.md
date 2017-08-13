@@ -3,12 +3,12 @@ Artist Website
 
 #### SVG Decorators
 svg elements are named:
-  *symbol
-  *motif-2
-  *motif-3
-  *motif-4
-  *motif-5
-  *motif-6
+  * symbol
+  * motif-2
+  * motif-3
+  * motif-4
+  * motif-5
+  * motif-6
  
 To import the motif SVG decorators use this syntax, changing the href to the motif you want
      <svg class="symbol symbol-XS"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#motif-2"></use></svg>
