@@ -25,4 +25,4 @@ __Sizing__ the decorators is done by adding another class after the "symbol" cla
 
 [Examples](https://cl.ly/3L0B2J04393M) can be found here.
 
-$copy; Tech-Mex.io
+&copy; Tech-Mex.io
