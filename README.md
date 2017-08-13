@@ -17,11 +17,11 @@ For consistancy the symbol and motif decorators should always contain the __clas
 
 __Sizing__ the decorators is done by adding another class after the "symbol" class, these can found at /scss/custom/hero.scss
 
-__.symbol .symbol-XS = 100px__
-__.symbol .symbol-S = 200px__
-__.symbol .symbol-M = 300px__
-__.symbol .symbol-L = 400px__
-__.symbol .symbol-XL = 500px__
++ __.symbol .symbol-XS = 100px__
++ __.symbol .symbol-S = 200px__
++ __.symbol .symbol-M = 300px__
++ __.symbol .symbol-L = 400px__
++ __.symbol .symbol-XL = 500px__
 
 
 
