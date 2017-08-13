@@ -113,6 +113,7 @@ gulp.task('watch', () => {
   /* Watch assets files, run the assets task on change. */
   gulp.watch(['./src/assets/**/*'], ['assets'])
   /* Watch .html files, run the bs-reload task on change. */
+  /* G - Not sure we need bs-reload here, it's also not pushing the latest change to the screen*/
   gulp.watch(['./src/views/**/*'], ['hbs', 'bs-reload']);
 })
 

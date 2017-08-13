@@ -22,16 +22,20 @@
 
             <div class="ae-3">
               <h2 class="series-title uppercase">{{ @root.barrios.title }}</h2>
-              <a href="{{@global.baseurl}}portfolio/barrio-series/" class="button round stroke grey"><p style="margin-bottom: 0px;">Barrio Portfolio</p></a>
+              <div class="rellax right" data-rellax-speed="1">
+                <svg class="symbol symbol-M"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#motif-2"></use></svg>
+              </div> 
+
               <p class="">
                 {{ @root.barrios.description }}
               </p>
+              <a href="{{@global.baseurl}}portfolio/barrio-series/"><p class="porfolioLink">Barrio Portfolio</p></a>
             </div>
           </div>
 
-           <div class="col-7-12 rellax right" data-rellax-speed="10">
+           <!-- <div class="col-6-12 rellax right" data-rellax-speed="2">
             <svg class="symbol symbol-M"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#motif-2"></use></svg>
-          </div> 
+          </div>  -->
 
       </div>
 
