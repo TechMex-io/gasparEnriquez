@@ -1,37 +1,37 @@
 
+ <!--Beginning of Section for all features, Commissions has the ending tag, !!Barrios always needs to start and Commissions always needs to end or we need to change the section tags  -->
 <section class="slide whiteSlide page-2">
   <div class="content">
     <div class="container">
-      <div class="wrap left">
+      <div class="wrap left featureWrap">
         
         <!-- Slide contents -->
-        <div class="grid equal">
+        <div class="grid equal">          
+          <div class="col-6-12 equalElement">
+                <a href="{{@global.baseurl}}portfolio/barrio-series/">
+                <img src="{{@global.baseurl}}assets/barrio/jpg/{{ @root.barrios.portfolioImages.3.src }}.jpg" width="" alt="" class=""></a>
+                <h5 class="">{{ @root.barrios.portfolioImages.3.title }}</h5>
+                <p class="">
+                <sub>
+                {{ @root.barrios.portfolioImages.3.medium }},&nbsp;&nbsp;{{ @root.barrios.portfolioImages.3.size }}<br>
+                {{ @root.barrios.portfolioImages.3.year }},&nbsp;&nbsp;<i>{{ @root.barrios.portfolioImages.3.collection }}</i></sub>
+                </p>
+          </div>
+
           <div class="col-6-12 equalElement left">
+
             <div class="ae-3">
               <h2 class="series-title uppercase">{{ @root.barrios.title }}</h2>
               <a href="{{@global.baseurl}}portfolio/barrio-series/" class="button round stroke grey"><p style="margin-bottom: 0px;">Barrio Portfolio</p></a>
               <p class="">
                 {{ @root.barrios.description }}
               </p>
-              <div class="col-8-12 rellax right" >
-                {{!--removed--> data-rellax-speed="6"  --from div above so i can click on the link button--}}
-                <img src="{{@global.baseurl}}assets/svg/Symbol.svg" alt="" width="400" class="symbol">
-              </div>
             </div>
-              
           </div>
-          
-          <div class="col-6-12 equalElement">
-                <a href="{{@global.baseurl}}portfolio/barrio-series/">
-                <img src="{{@global.baseurl}}assets/barrio/jpg/{{ @root.barrios.portfolioImages.3.src }}.jpg" width="" alt="" class=""></a>
-                <h5 class="">{{ @root.barrios.portfolioImages.3.title }}</h5>
-                <p class="">
-                <sub>{{ @root.barrios.portfolioImages.3.year }}<br>
-                {{ @root.barrios.portfolioImages.3.medium }}<br>
-                {{ @root.barrios.portfolioImages.3.size }}<br>
-                {{ @root.barrios.portfolioImages.3.collection }}</sub>
-                </p>
-          </div>
+
+           <div class="col-7-12 rellax right" data-rellax-speed="10">
+            <svg class="symbol symbol-M"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#motif-2"></use></svg>
+          </div> 
 
       </div>
 
@@ -39,4 +39,4 @@
     </div>
   </div>
   <!--<div class="background" style="background: rgb(51,49,49);"></div>-->
-</section>
+<!-- </section> -->
