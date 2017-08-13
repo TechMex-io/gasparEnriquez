@@ -23,5 +23,5 @@ __Sizing__ the decorators is done by adding another class after the "symbol" cla
 + __.symbol .symbol-L = 400px__
 + __.symbol .symbol-XL = 500px__
 
-[Examples]:https://cl.ly/3L0B2J04393M
+[Examples](https://cl.ly/3L0B2J04393M) can be found here.
 
