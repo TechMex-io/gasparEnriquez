@@ -14,7 +14,7 @@ The __motif__ decorators have been added to the SVG library. To import the __mot
 
 `<svg class="symbol symbol-XS"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#motif-2"></use></svg>`
     
-For consistancy the symbol and ##### svg tag # should always contain the __class="symbol"__ to keep the opacity the same. 
+For consistancy the symbol and ** _svg tag_** should always contain the __class="symbol"__ to keep the opacity the same. 
 
 __Sizing__ the decorators is done by adding another class to the svg tag after the "symbol" class, these can found at /scss/custom/hero.scss
 
