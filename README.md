@@ -11,6 +11,7 @@ svg elements are named:
   * motif-6
  
 The __motif__ decorators have been added to the SVG library. To import the __motif__ SVG decorators use this syntax, changing the href to the motif you want
+
 `<svg class="symbol symbol-XS"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#motif-2"></use></svg>`
     
 For consistancy the symbol and motif decorators should always contain the __class="symbol"__ to keep the opacity the same. 
