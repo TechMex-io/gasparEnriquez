@@ -30,6 +30,9 @@
   }
 }
 
+.tab{
+  margin-left: 40px
+}
 // Decorators
 .symbol {
   opacity: .06;
@@ -60,9 +63,15 @@
     }
 }
 
+// wrap
 
-.wrap.left.featureWrap{
-  padding-bottom: 0px;
+div.wrap.left.featureWrapBottom{
+  padding-bottom:0px;
+  //padding-top: 60px;
+
+  // .wrapTop{
+  //   padding-top: 60px;
+  // }
 }
 
 h2.series-title {
@@ -70,14 +79,15 @@ h2.series-title {
   font-size: 8rem;
 }
 
-a p.porfolioLink {
+a p.portfolioLink {
   position: relative;
   display: inline-block;
   color: hsla(4,40%,15%,.7);
-  font-size: 2rem;
+  font-size: 3rem;
   transition: color .2s ease;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   text-decoration: none;
+  margin-bottom: 0px;
 
     &:hover{
         color: hsla(28, 38%, 37%, 1)
