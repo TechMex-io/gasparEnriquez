@@ -1,41 +1,34 @@
 <!-- <section class="slide whiteSlide page-6"> -->
   <div class="content">
     <div class="container">
-      <div class="wrap left">
+      <div class="wrap left featureWrapBottom">
       
         <!-- Slide contents -->
         <div class="grid equal">
           <div class="col-6-12 left equalElement">
             <a href="{{@global.baseurl}}portfolio/tattoos-series/">
             <img src="{{@global.baseurl}}assets/tattoo/jpg/{{ @root.tattoos.portfolioImages.0.src }}.jpg" width="100%" alt="" class=""></a>
-              <h1 class="">{{@root.tattoos.img1.title}}</h1>
+              <h1 class="">{{@root.tattoos.portfolioImages.0.title}}</h1>
               <p class="">
-              <sub>{{@root.tattoos.img1.year}}<br>
-              {{@root.tattoos.img1.medium}}<br>
-              {{@root.tattoos.img1.size}}<br>
-              {{@root.tattoos.img1.collection}}</sub>
+            <sub>
+            {{@root.tattoos.portfolioImages.0.medium}},&nbsp;&nbsp;
+            {{@root.tattoos.portfolioImages.0.size}}<br>
+            {{@root.tattoos.portfolioImages.0.year}}&nbsp;&nbsp;{{@root.tattoos.portfolioImages.0.collection}}</sub>
               </p>
-
-            
           </div>
           
           <div class="col-6-12 right equalElement">
-            <h2 class="georgeTestSize">{{@root.tattoos.title}}</h2>
-            <a href="{{@global.baseurl}}portfolio/tattoos-series/" class="button round stroke grey">
-              <p style="margin-bottom: 0px;">Tattoo Portfolio</p></a>
-            <P class="">
+            <h2 class="series-title uppercase">{{@root.tattoos.title}}</h2>
+            <P class="tab">
             {{@root.tattoos.description}}</p>
           
-            <img src="{{@global.baseurl}}assets/svg/Symbol.svg" alt="" width="600" class="symbol rellax" data-rellax-speed='-.6'>
-
+            <div class='rellax left' data-rellax-speed='.3'>
+              <svg class="symbol symbol-XL"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#motif-1"></use></svg>
+              <a href="{{@global.baseurl}}portfolio/tattoos-series/">
+              <p class="portfolioLink" style="margin-left:15%">Tattoos Portfolio</p></a>
+            </div>
           </div>
 
-           {{!--arrow to next page--}}
-          {{!--<div class="col-12-12">
-            <div class="ae-1 nextSlide">
-              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg>
-            </div>
-          </div>--}}
           
       </div>
 
