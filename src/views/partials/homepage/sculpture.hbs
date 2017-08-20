@@ -1,39 +1,34 @@
-<section class="slide whiteSlide page-4">
+<!-- <section class="slide whiteSlide page-4"> -->
   <div class="content">
     <div class="container">
-      <div class="wrap left">
+      <div class="wrap left featureWrapBottom">
       
         <!-- Slide contents -->
         <div class="grid equal">
           <div class="col-6-12 left equalElement">
             <a href="{{@global.baseurl}}portfolio/sculpture-series/">
               <img src="{{@global.baseurl}}assets/sculpture/jpg/{{ @root.sculpture.portfolioImages.0.src }}.jpg"width="100%" alt=""></a>
-              <h1 class="">{{@root.sculpture.img1.title}}</h1>
+              <h1 class="">{{@root.sculpture.portfolioImages.0.title}}</h1>
               <p class="" style="margin-bottom: 0px">
-              <sub>{{@root.sculpture.img1.year}}<br>
-              {{@root.sculpture.img1.medium}}<br>
-              {{@root.sculpture.img1.size}}<br>
-              {{@root.sculpture.img1.collection}}</sub>
+              <sub>
+              {{ @root.sculpture.portfolioImages.0.medium }},  {{ @root.sculpture.portfolioImages.0.size }}<br>
+              {{ @root.sculpture.portfolioImages.0.year }},  {{ @root.sculpture.portfolioImages.0.collection }}</sub>
               </p>
           </div>
 
           <div class="col-6-12 equalElement">
-            <h2 class="georgeTestSize">{{@root.sculpture.title}}</h2>
-            <a href="{{@global.baseurl}}portfolio/sculpture-series/" class="button round stroke grey">
-              <p style="margin-bottom: 0px;">Sculpture Portfolio</p></a>
-            <p class="">
-            {{@root.sculpture.description}}</p>
-          </div>
-           {{!--arrow to next page--}}
-          {{!--<div class="col-12-12">
-            <div class="ae-1 nextSlide">
-              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg>
+            <h2 class="series-title uppercase">{{@root.sculpture.title}}</h2>
+            <p class="tab">{{@root.sculpture.description}}</p>
+            <div class="rellax right" data-rellax-speed=".5">
+                <svg class="symbol symbol-XL"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#motif-4"></use></svg>
+            <a href="{{@global.baseurl}}portfolio/sculpture-series/">
+              <p class="portfolioLink" style="margin-left:5%">Sculpture Portfolio</p></a>
             </div>
-          </div>--}}
+          </div>
       </div>
 
       </div><!-- /.wrap -->
     </div>
   </div>
   <!--<div class="background" style="background: rgb(51,49,49);"></div>-->
-</section>
+<!-- </section> -->
