@@ -2,21 +2,19 @@
   <div class="content">
     <div class="container">
       <div class="wrap top">
-
+        <div class="ae-9"><p class="hero__quote">{{{ @root.data.quote }}}</p></div>
         <div class="fix-12-12 paddingTop">
           <div class="fix-6-12">
             <div class="svgContainer svg-9">
               <h1 class="bold fix-10-12 ae-7">{{ @root.data.title }}</h1>
-              <div class="ae-5"><p class="hero">{{ @root.data.subtitle }}</p></div>
+              <p class="ae-5 hero">{{ @root.data.subtitle }}</p>
             </div>
           </div>
           <div class="ae-3 fix-6-12">
-            <p class="hero">
-              {{{ @root.data.quote }}}
-            </p>
-            <span class="mainLinkPadding nextSlide"><a class="mainLinks">Portfolios</a></span>
-            <span class="mainLinkPadding"><a href="exhibitions.html" class="mainLinks">Exhibitions</a></span>
-            <span class="mainLinkPadding"><a class="mainLinks">Resumé</a></span>
+            
+            <span class="hero__button"><a class="mainLinks nextSlide">Portfolios</a></span>
+            <span class="hero__button"><a href="exhibitions.html" class="mainLinks">Exhibitions</a></span>
+            <span class="hero__button"><a class="mainLinks">Resumé</a></span>
           </div>
         </div>
         <div class="ae-1 nextSlide footer">
