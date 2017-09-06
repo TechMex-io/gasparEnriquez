@@ -14,4 +14,15 @@ if (!window.isMobile && ($('.slide.youtube').length > 0)) {
 }
 
 
-// var rellax = new Rellax('.rellax');
+var rellax = new Rellax('.rellax');
+$(document).ready( function() {
+  if ( document.querySelector('section.hero') ){
+    $('svg.logo').addClass('noShow');
+    $('nav.panel.top.fixed.forceMobileView').removeClass('white');
+    }
+  $(window).scroll(function() {
+    document.querySelector('svg.logo').classList.remove('noShow');
+    document.querySelector('nav.panel.top.fixed.forceMobileView').classList.add('white');
+  });
+
+});
