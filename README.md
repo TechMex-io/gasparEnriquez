@@ -26,5 +26,5 @@ __Sizing__ the decorators is done by adding another class to the **_svg tag_** a
 
 [Examples](https://cl.ly/3L0B2J04393M) can be found here.
 
-&copy; Tech-Mex.io, 2017
+&copy; Tech-Mex.io, 2017<br>
 George Ramirez & Alex Rodriguez
