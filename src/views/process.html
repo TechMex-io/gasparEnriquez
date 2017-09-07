@@ -12,51 +12,51 @@
         
           <div class="fix-10-12 toCenter">
             
-            <h1 class="ae-1">The Process</h1>
-            <div class="ae-2"><p>A few sentences about the process of creating work. Nothing to specific just enough to allow people to understand how difficult and long the process can be to completeone piece.</p></div>
+            <h1 class="ae-1">{{@root.process.title}}</h1>
+            <div class="ae-2"><p class="textLargeJustify">{{@root.process.description}}</p></div>
           </div>
           <div class="fix-12-12">  
             <ul class="flex fixedSpaces later left">
               <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
-                <a href="#" class="button empty margin-bottom-2 ae-4"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/process1.jpg" alt="Image Thumbnail"/></a>
-                <h3 class="ae-5">Step 1</h3>
-                <div class="ae-6"><p class="small">A sentence describing this step.</p></div>
+                <a href="#" class="button empty margin-bottom-2 ae-4"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.0.src}}.jpg" alt="Air Brush Process Photograph"/></a>
+                <h3 class="ae-5">{{@root.process.steps.0.step}}</h3>
+                <div class="ae-6"><p class="small">{{@root.process.steps.0.description}}</p></div>
               </li>
               <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
-                <div class="button empty margin-bottom-2 videoThumbnail noShadow popupTrigger ae-3" data-popup-id="91"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/process2.jpg" alt="Video Thumbnail"/></div>
-                <h3 class="ae-4">Step 2</h3>
-                <div class="ae-5"><p class="small">A sentence describing this step.</p></div>
+                <div class="button empty margin-bottom-2 videoThumbnail noShadow popupTrigger ae-3" data-popup-id="91"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.1.src}}.jpg" alt="Video Thumbnail"/></div>
+                <h3 class="ae-4">{{@root.process.steps.1.step}}</h3>
+                <div class="ae-5"><p class="small">{{@root.process.steps.1.description}}</p></div>
               </li>
 
               <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
-                <a href="#" class="button empty margin-bottom-2 ae-5"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/process2.jpg" alt="Image Thumbnail"/></a>
-                <h3 class="ae-6">Step 3</h3>
-                <div class="ae-7"><p class="small">A sentence describing this step.</p></div>
+                <a href="#" class="button empty margin-bottom-2 ae-5"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.2.src}}.jpg" alt="Image Thumbnail"/></a>
+                <h3 class="ae-6">{{@root.process.steps.2.step}}</h3>
+                <div class="ae-7"><p class="small">{{@root.process.steps.2.description}}</p></div>
               </li>
               <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
-                <a href="#" class="button empty margin-bottom-2 ae-6"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/process3.jpg" alt="Image Thumbnail"/></a>
-                <h3 class="ae-7">Step 4</h3>
-                <div class="ae-8"><p class="small">A sentence describing this step.</p></div>
+                <a href="#" class="button empty margin-bottom-2 ae-6"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.3.src}}.jpg" alt="Image Thumbnail"/></a>
+                <h3 class="ae-7">{{@root.process.steps.3.step}}</h3>
+                <div class="ae-8"><p class="small">{{@root.process.steps.3.description}}</p></div>
               </li>
               <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
-                <a href="#" class="button empty margin-bottom-2 ae-6"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/process4.jpg" alt="Image Thumbnail"/></a>
-                <h3 class="ae-7">Step 5</h3>
-                <div class="ae-8"><p class="small">A sentence describing this step.</p></div>
+                <a href="#" class="button empty margin-bottom-2 ae-6"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.4.src}}.jpg" alt="Image Thumbnail"/></a>
+                <h3 class="ae-7">{{@root.process.steps.4.step}}</h3>
+                <div class="ae-8"><p class="small">{{@root.process.steps.4.description}}</p></div>
               </li>
               <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
-                <a href="#" class="button empty margin-bottom-2 ae-6"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/process5.jpg" alt="Image Thumbnail"/></a>
-                <h3 class="ae-7">Step 6</h3>
-                <div class="ae-8"><p class="small">A sentence describing this step.</p></div>
+                <a href="#" class="button empty margin-bottom-2 ae-6"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.5.src}}.jpg" alt="Image Thumbnail"/></a>
+                <h3 class="ae-7">{{@root.process.steps.5.step}}</h3>
+                <div class="ae-8"><p class="small">{{@root.process.steps.5.description}}</p></div>
               </li>
               <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
-                <a href="#" class="button empty margin-bottom-2 ae-6"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/process6.jpg" alt="Image Thumbnail"/></a>
-                <h3 class="ae-7">Step 7</h3>
-                <div class="ae-8"><p class="small">A sentence describing this step.</p></div>
+                <a href="#" class="button empty margin-bottom-2 ae-6"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.6.src}}.jpg" alt="Image Thumbnail"/></a>
+                <h3 class="ae-7">{{@root.process.steps.6.step}}</h3>
+                <div class="ae-8"><p class="small">{{@root.process.steps.6.description}}</p></div>
               </li>
               <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
-                <a href="#" class="button empty margin-bottom-2 ae-6"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/processComplete.jpg" alt="Image Thumbnail"/></a>
-                <h3 class="ae-7">Step 8</h3>
-                <div class="ae-8"><p class="small">A sentence describing this step.</p></div>
+                <a href="#" class="button empty margin-bottom-2 ae-6"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.7.src}}.jpg" alt="Image Thumbnail"/></a>
+                <h3 class="ae-7">{{@root.process.steps.7.step}}</h3>
+                <div class="ae-8"><p class="small">{{@root.process.steps.7.description}}</p></div>
               </li>
             </ul>
           </div>
@@ -74,34 +74,12 @@
         <div class="wrap">
           <div class="fix-10-12">
             <div class="embedVideo popupContent">
-              <iframe src="https://www.youtube.com/embed/k_swmLIZDws" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/-97LGPTZFrI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-<!-- <section class="slide whiteSlide page-5">
-  <div class="content">
-    <div class="container">
-      <div class="wrap left">
-        
-        
-        
-        <div class="grid equal">
-          <h2 class="georgeTestSize">All press and media coverage you have had</h2>
-          <div class="col-12-12 equalElement">
-            <p class="">{{@root.commissions.description}}</p>
-            <div class='col-8-12 right rellax' data-rellax-speed='2.2'>
-              <img src="{{@global.baseurl}}assets/svg/Symbol.svg" alt="" width="400" class="symbol">
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section> -->
 
   {{> footer }}
