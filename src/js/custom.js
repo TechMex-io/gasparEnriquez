@@ -15,14 +15,17 @@ if (!window.isMobile && ($('.slide.youtube').length > 0)) {
 
 
 var rellax = new Rellax('.rellax');
+
 $(document).ready( function() {
-  if ( document.querySelector('section.hero') ){
-    $('svg.logo').addClass('noShow');
-    $('nav.panel.top.fixed.forceMobileView').removeClass('white');
-    }
-  $(window).scroll(function() {
-    document.querySelector('svg.logo').classList.remove('noShow');
-    document.querySelector('nav.panel.top.fixed.forceMobileView').classList.add('white');
+  var $logo = $('svg.logo');
+  var $panel = $('nav.panel.top.fixed.forceMobileView');
+  var h = $('.hero').height() - 100;
+
+  $logo.addClass('noShow');
+  $panel.removeClass('white');
+  $(window).scroll(function(e) {
+    (window.scrollY < h) ? $panel.addClass('noShow') : $panel.removeClass('noShow').addClass('white');
+    (window.scrollY < h) ? $logo.addClass('noShow') : $logo.removeClass('noShow');
   });
 
 });
