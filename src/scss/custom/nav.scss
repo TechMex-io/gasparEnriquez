@@ -94,7 +94,6 @@ a.link:hover {
 .panel.top.fixed.noShow{
   opacity: 0;
   top: -150px;
-<<<<<<< HEAD
 }
 
 .line_decoration {
@@ -104,7 +103,6 @@ a.link:hover {
   background: -webkit-linear-gradient(left, #2591bc 8%,#010d13 11%,#b1111e 13%,#ffe046 16%,#b1111e 59%,#b1111e 59%,#f61893 69%,#189349 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, #2591bc 8%,#010d13 11%,#b1111e 13%,#ffe046 16%,#b1111e 59%,#b1111e 59%,#f61893 69%,#189349 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2591bc', endColorstr='#189349',GradientType=1 ); /* IE6-9 */
-=======
 }
 
 @mixin sarape() {
@@ -117,7 +115,6 @@ a.link:hover {
 
 .line_decoration {
   @include sarape();
->>>>>>> 4916276b65a8a0fd0ed11c129f7e87cc328f3717
   height: 3px;
   position: fixed;
   width: 100%;
@@ -125,14 +122,11 @@ a.link:hover {
   left: 0;
   right: 0;
   z-index: 1050;
-<<<<<<< HEAD
 
-=======
 }
 .down-arrow.button.actionButton {
   background: rgba(255,255,255,0.86);
 }
 .slide.whiteSlide .footer svg {
   fill: rgba(226, 0, 78, .85);
->>>>>>> 4916276b65a8a0fd0ed11c129f7e87cc328f3717
 }
