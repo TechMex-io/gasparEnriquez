@@ -22,7 +22,7 @@ $(document).ready( function() {
   var h = $('.hero').height() - 100;
 
   $logo.addClass('noShow');
-  $panel.removeClass('white');
+  $panel.removeClass('white').addClass('noShow');
   $(window).scroll(function(e) {
     (window.scrollY < h) ? $panel.addClass('noShow') : $panel.removeClass('noShow').addClass('white');
     (window.scrollY < h) ? $logo.addClass('noShow') : $logo.removeClass('noShow');
