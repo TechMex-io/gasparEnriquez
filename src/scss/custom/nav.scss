@@ -96,13 +96,16 @@ a.link:hover {
   top: -150px;
 }
 
-.line_decoration {
-  // background-color: #835C3B;
+@mixin sarape() {
   background: #2591bc; /* Old browsers */
   background: -moz-linear-gradient(left, #2591bc 8%, #010d13 11%, #b1111e 13%, #ffe046 16%, #b1111e 59%, #b1111e 59%, #f61893 69%, #189349 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left, #2591bc 8%,#010d13 11%,#b1111e 13%,#ffe046 16%,#b1111e 59%,#b1111e 59%,#f61893 69%,#189349 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, #2591bc 8%,#010d13 11%,#b1111e 13%,#ffe046 16%,#b1111e 59%,#b1111e 59%,#f61893 69%,#189349 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2591bc', endColorstr='#189349',GradientType=1 ); /* IE6-9 */
+}
+
+.line_decoration {
+  @include sarape();
   height: 3px;
   position: fixed;
   width: 100%;
@@ -110,5 +113,10 @@ a.link:hover {
   left: 0;
   right: 0;
   z-index: 1050;
-
+}
+.down-arrow.button.actionButton {
+  background: rgba(255,255,255,0.86);
+}
+.slide.whiteSlide .footer svg {
+  fill: rgba(226, 0, 78, .85);
 }
