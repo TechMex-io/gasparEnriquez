@@ -1,3 +1,22 @@
+.hero__ {
+  &quote {
+    left: 50%;
+    position: absolute;
+    top: 1rem;
+    transform: translateX(-50%);
+  }
+  &button {
+    background-color: rgba(255,255,255,0.6);
+    padding: .5rem;
+    font-size: 1.3rem;
+    transition: color .15s ease-in, background-color .3s ease-in;
+    &:hover {
+      background-color: rgba(125, 12, 74, 0.80);
+      color: #fff;
+    }
+  }
+}
+
 .paddingTop{
   padding-top: 150px;
 }
@@ -17,18 +36,7 @@
   fill: hsla(4,40%,15%,.8);
 }
 
-.nextSlide {
-  background: rgba(255,255,255,.8);
-  border-radius: 50px;
-  height: 50px;
-  margin: 0 auto;
-  width: 50px;
 
-  svg {
-    height: 55px;
-    width: 30px;
-  }
-}
 
 .tab{
   margin-left: 40px
@@ -91,7 +99,7 @@ h2.series-title {
   margin-bottom: 0px;
   &:before {
     background: #2591bc; /* Old browsers */
-    background: -moz-linear-gradient(left, #2591bc 8%, #010d13 11%, #b1111e 13%, #ffe046 16%, #b1111e 59%, #b1111e 59%, #f61893 69%, #189349 100%); /* FF3.6-15 */
+    background: -moz-linear-gradient(left, #2591bc 8%, #010d13 11%, #B1101D 13%, #ffe046 16%, #b1111e 59%, #b1111e 59%, #f61893 69%, #189349 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left, #2591bc 8%,#010d13 11%,#b1111e 13%,#ffe046 16%,#b1111e 59%,#b1111e 59%,#f61893 69%,#189349 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, #2591bc 8%,#010d13 11%,#b1111e 13%,#ffe046 16%,#b1111e 59%,#b1111e 59%,#f61893 69%,#189349 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */  
     content: '';
@@ -123,6 +131,22 @@ h2.series-title {
   //   -webkit-transform: scaleX(1);
   //   transform: scaleX(1);
   // }
+}
+.barrio-link,
+.commissions-link {
+  @include portfolioLink(#189349);
+}
+.artist-link {
+  @include portfolioLink(#ffe046);
+}
+.charros-link {
+  @include portfolioLink(hsl(355, 83%, 38%));
+}
+.sculpture-link {
+  @include portfolioLink(#2591bc);
+}
+.tattoos-link {
+  @include portfolioLink(hsl(25, 100%, 64%));
 }
 .barrio-link {
   @include portfolioLink(#189349);
