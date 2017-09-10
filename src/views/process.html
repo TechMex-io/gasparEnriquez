@@ -1,0 +1,85 @@
+  {{> head }}
+    
+  {{> svg }} 
+
+  {{> navBar/logoWithSideNav }}
+ 
+
+  <section class="slide fade whiteSlide">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-10-12 toCenter">
+            
+            <h1 class="ae-1">{{@root.process.title}}</h1>
+            <div class="ae-2"><p class="textLargeJustify">{{@root.process.description}}</p></div>
+          </div>
+          <div class="fix-12-12">  
+            <ul class="flex fixedSpaces later left">
+              <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
+                <img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.0.src}}.jpg" alt="Air Brush Process Photograph"/>
+                <h3 class="ae-5">{{@root.process.steps.0.step}}</h3>
+                <div class="ae-6"><p class="small">{{@root.process.steps.0.description}}</p></div>
+              </li>
+              <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
+                <div class="button empty margin-bottom-2 videoThumbnail noShadow popupTrigger ae-3" data-popup-id="91"><img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.1.src}}.jpg" alt="Video Thumbnail"/></div>
+                <h3 class="ae-4">{{@root.process.steps.1.step}}</h3>
+                <div class="ae-5"><p class="small">{{@root.process.steps.1.description}}</p></div>
+              </li>
+
+              <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
+                <img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.2.src}}.jpg" alt="Image Thumbnail"/>
+                <h3 class="ae-6">{{@root.process.steps.2.step}}</h3>
+                <div class="ae-7"><p class="small">{{@root.process.steps.2.description}}</p></div>
+              </li>
+              <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
+                <img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.3.src}}.jpg" alt="Image Thumbnail"/>
+                <h3 class="ae-7">{{@root.process.steps.3.step}}</h3>
+                <div class="ae-8"><p class="small">{{@root.process.steps.3.description}}</p></div>
+              </li>
+              <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
+                <img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.4.src}}.jpg" alt="Image Thumbnail"/>
+                <h3 class="ae-7">{{@root.process.steps.4.step}}</h3>
+                <div class="ae-8"><p class="small">{{@root.process.steps.4.description}}</p></div>
+              </li>
+              <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
+                <img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.5.src}}.jpg" alt="Image Thumbnail"/>
+                <h3 class="ae-7">{{@root.process.steps.5.step}}</h3>
+                <div class="ae-8"><p class="small">{{@root.process.steps.5.description}}</p></div>
+              </li>
+              <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
+                <img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.6.src}}.jpg" alt="Image Thumbnail"/>
+                <h3 class="ae-7">{{@root.process.steps.6.step}}</h3>
+                <div class="ae-8"><p class="small">{{@root.process.steps.6.description}}</p></div>
+              </li>
+              <li class="col-6-12 col-tablet-1-2 col-phone-1-1">
+                <img class="img-91 wide" src="{{@global.baseurl}}assets/img/process/{{@root.process.steps.7.src}}.jpg" alt="Image Thumbnail"/>
+                <h3 class="ae-7">{{@root.process.steps.7.step}}</h3>
+                <div class="ae-8"><p class="small">{{@root.process.steps.7.description}}</p></div>
+              </li>
+            </ul>
+          </div>
+                  
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="91">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent">
+              <iframe src="https://www.youtube.com/embed/-97LGPTZFrI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{> footer }}

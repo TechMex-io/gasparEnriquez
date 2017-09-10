@@ -1,4 +1,3 @@
-
 .hero__ {
   &quote {
     left: 50%;
@@ -107,10 +106,30 @@ h2.series-title {
     top: 3rem;
   }
 }
-
 .barrio-link,
 .commissions-link {
   @include portfolioLink(#189349);
+}
+.artist-link {
+  @include portfolioLink(#ffe046);
+}
+.charros-link {
+  @include portfolioLink(hsl(355, 83%, 38%));
+}
+.sculpture-link {
+  @include portfolioLink(#2591bc);
+}
+.tattoos-link {
+  @include portfolioLink(hsl(25, 100%, 64%));
+}
+.barrio-link {
+  @include portfolioLink(#189349);
+}
+.artist-link {
+  @include portfolioLink(#ffe046);
+}
+.charros-link {
+  @include portfolioLink(#b1111e);
 }
 .artist-link {
   @include portfolioLink(#ffe046);
@@ -182,6 +201,7 @@ a.mainLinks {
       transform: scaleX(1);
   }
 
+  
 }
 
 .nextSlide {
