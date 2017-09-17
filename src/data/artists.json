@@ -4,6 +4,24 @@
   "description": "This series of Artist’s portraits, \"De Puro Corazon\" (Pure Heart), acknowledges artist whose work and dedication to that work explore new boundaries in their quest for expression. These Artists offer an intriguing mixture of styles, content, and themes that provoke questions and dialogue between the art and the viewer. I selected to paint these Artists because I admire their work and their passionate dedication to their work. As we participated in the same exhibitions I became acquainted with their lives and their passion for their work the character of their personalities began to become obvious in their work.",
   "portfolioImages": [
     {
+      "src":"Jim",
+      "title": "Jim Magee",
+      "year": "2017",
+      "medium": "Airbrushed acrylic on paper",
+      "size": "20x30?",
+      "collection": "Collection... ",
+      "print": true
+    },
+    {
+      "src":"Rachelle",
+      "title": "Rachelle Thiewes",
+      "year": "2017",
+      "medium": "Airbrushed acrylic on paper",
+      "size": "20x30?",
+      "collection": "Collection... ",
+      "print": true
+    },
+    {
       "src":"Vicente",
       "title": "Vicente",
       "year": "year",
