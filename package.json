@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "git push origin --delete gh-pages && gulp build && git add dist/ -f && git commit -m 'build and deploy' && git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
