@@ -26,5 +26,14 @@ __Sizing__ the decorators is done by adding another class to the **_svg tag_** a
 
 [Examples](https://cl.ly/3L0B2J04393M) can be found here.
 
+#### To update gh-pages from MASTER after latest changes have been merged
+```
+git push origin --delete gh-pages
+gulp build
+git add dist/ -f
+git commit -m "build and deploy"
+git subtree push --prefix dist origin gh-pages
+```
+
 &copy; Tech-Mex.io, 2017<br>
 George Ramirez & Alex Rodriguez
