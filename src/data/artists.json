@@ -11,8 +11,7 @@
       "size": "20x30?",
       "collection": "Collection... ",
       "print": true
-    },
-    {
+    },{
       "src":"Rachelle",
       "title": "Rachelle Thiewes",
       "year": "2017",
@@ -20,8 +19,7 @@
       "size": "20x30?",
       "collection": "Collection... ",
       "print": true
-    },
-    {
+    },{
       "src":"Vicente",
       "title": "Vicente",
       "year": "year",
@@ -132,6 +130,22 @@
       "medium": "medium",
       "size": "size",
       "collection": "Collection... ",
+      "print": false
+    },{
+      "src":"Rachell",
+      "title": "Rachelle Thiewes",
+      "year": "2018",
+      "medium": "Airbrushed acrylic on paper",
+      "size": null,
+      "collection": null,
+      "print": false
+    },{
+      "src":"Jim",
+      "title": "James Magee",
+      "year": "2018",
+      "medium": "Airbrushed acrylic on paper",
+      "size": null,
+      "collection": null,
       "print": false
     } 
   ]

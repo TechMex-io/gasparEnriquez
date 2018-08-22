@@ -8,8 +8,8 @@
           <div class="col-6-12 equalElement left">
             <!-- <h2 class="series-title uppercase">{{@root.artists.title}}</h2> -->
             <h2 class="series-title uppercase"><a href="{{@global.baseurl}}portfolio/artist-series/" class="artist-link">Artist Portfolio</a></h2>
-            <!-- <p class="tab">
-              {{@root.artists.description}}</p> -->
+            <p class="tab hideForPhablet">
+              {{@root.artists.description}}</p>
             <div class='rellax hideForPhablet' data-rellax-speed='.1'>
               <svg class="symbol symbol-L"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#motif-2"></use></svg>
             </div>
@@ -19,14 +19,16 @@
           
           <div class="col-6-12 equalElement right">
             <a href="{{@global.baseurl}}portfolio/artist-series/">
-            <img src="{{@global.baseurl}}assets/artist/jpg/{{@root.artists.portfolioImages.12.src}}.jpg" width="660" alt="" class=""></a>
-            <h2 class="">{{@root.artists.portfolioImages.12.title}}</h2>
+            <img src="{{@global.baseurl}}assets/artist/jpg/{{@root.artists.portfolioImages.17.src}}.jpg" width="660" alt="" class=""></a>
+            <h2 class="">{{@root.artists.portfolioImages.17.title}}</h2>
             <p class="">
             <sub>
-            {{@root.artists.portfolioImages.12.medium}},&nbsp;&nbsp;
-            {{@root.artists.portfolioImages.12.size}}<br>
-            {{@root.artists.portfolioImages.12.year}}&nbsp;&nbsp;{{@root.artists.portfolioImages.12.collection}}</sub>
+            {{@root.artists.portfolioImages.17.medium}},&nbsp;&nbsp;
+            {{@root.artists.portfolioImages.17.size}}<br>
+            {{@root.artists.portfolioImages.17.year}}&nbsp;&nbsp;{{@root.artists.portfolioImages.17.collection}}</sub>
             </p>
+            <p class="tab hideForPhablet showForPhablet" style="display:none;">
+              {{@root.artists.description}}</p>
             <!-- <div class="rellax center" data-rellax-speed='-.2'>
               <svg class="symbol symbol-S"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#motif-3"></use></svg><br>
             </div> -->
