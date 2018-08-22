@@ -1,0 +1,11 @@
+@media( max-width: 1000px){
+	.hideForPhablet {
+		display: none !important;
+	}
+}
+
+@media(max-width: 1000px){
+	.showForPhablet {
+		 display: block !important;
+	}
+}

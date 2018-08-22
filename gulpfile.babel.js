@@ -96,14 +96,6 @@ gulp.task('browser-sync', () => {
   });
 });
 
-// gulp.task('serve', () => {
-//   browserSync.init({
-//     server: {
-//       baseDir: './dist'
-//     }
-//   });
-// });
-
 gulp.task('serve', () => {
   browserSync.init({
     server: {
@@ -112,19 +104,6 @@ gulp.task('serve', () => {
   });
   gulp.watch("./dist").on("change", reload);
 });
-
-
-// gulp.task('watch', () => {
-//   /* Watch scss, run the sass task on change. */
-//   gulp.watch(['./src/scss/*.scss', './src/scss/**/*.scss'], ['sass'])
-//   /* Watch app.js file, run the scripts task on change. */
-//   gulp.watch(['./src/js/custom.js'], ['scripts'])
-//   /* Watch assets files, run the assets task on change. */
-//   gulp.watch(['./src/assets/**/*'], ['assets'])
-//   /* Watch .html files, run the bs-reload task on change. */
-//   /* G - Not sure we need bs-reload here, it's also not pushing the latest change to the screen*/
-//   gulp.watch(['./src/views/**/*'], ['hbs', 'bs-reload']);
-// })
 
 gulp.task('watch', [ 'serve'], () => {
   /* Watch scss, run the sass task on change. */

@@ -6,10 +6,11 @@
         <!-- Slide contents -->
         <div class="grid equal">
           <div class="col-6-12 equalElement left">
-            <h2 class="series-title uppercase">{{@root.artists.title}}</h2>
-            <p class="tab">
-              {{@root.artists.description}}</p>
-            <div class='rellax' data-rellax-speed='.4'>
+            <!-- <h2 class="series-title uppercase">{{@root.artists.title}}</h2> -->
+            <h2 class="series-title uppercase"><a href="{{@global.baseurl}}portfolio/artist-series/" class="artist-link">Artist Portfolio</a></h2>
+            <!-- <p class="tab">
+              {{@root.artists.description}}</p> -->
+            <div class='rellax hideForPhablet' data-rellax-speed='.1'>
               <svg class="symbol symbol-L"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#motif-2"></use></svg>
             </div>
             
@@ -26,12 +27,12 @@
             {{@root.artists.portfolioImages.12.size}}<br>
             {{@root.artists.portfolioImages.12.year}}&nbsp;&nbsp;{{@root.artists.portfolioImages.12.collection}}</sub>
             </p>
-            <div class="rellax center" data-rellax-speed='-.2'>
+            <!-- <div class="rellax center" data-rellax-speed='-.2'>
               <svg class="symbol symbol-S"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#motif-3"></use></svg><br>
-            </div>
-              <p>
+            </div> -->
+              <!-- <p>
                 <a href="{{@global.baseurl}}portfolio/artist-series/" class="artist-link">Artist Portfolio</a>
-              </p>
+              </p> -->
             
           </div>
       </div>
