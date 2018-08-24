@@ -9,56 +9,56 @@
       "year": null,
       "medium": "Airbrushed acrylic on paper",
       "size": null,
-      "collection": null,
-      "print": false
+      "collection": "Collection of the artist",
+      "print": true
     },{
       "src":"Sur-818",
       "title": "Sur 818",
-      "year": "year",
+      "year": null,
       "medium": "Airbrushed acrylic on paper",
-      "size": "Size",
-      "collection": "Collection of ...",
-      "print": false
+      "size": null,
+      "collection": "Collection of the artist",
+      "print": true
     },{
       "src":"Jenette",
       "title": "Jenette",
-      "year": "year",
+      "year": null,
       "medium": "Airbrushed acrylic on paper",
-      "size": "Size",
-      "collection": "Collection of ...",
-      "print": false
+      "size": null,
+      "collection": "Collection of the artist",
+      "print": true
     },{
       "src":"Miel",
       "title": "Miel",
-      "year": "year",
+      "year": null,
       "medium": "Airbrushed acrylic on paper",
-      "size": "Size",
-      "collection": "Collection of ...",
-      "print": false
+      "size": null,
+      "collection": "Collection of the artist",
+      "print": true
     },{
       "src":"Charolito",
       "title": "Charolito",
-      "year": "year",
+      "year": null,
       "medium": "Airbrushed acrylic on paper",
-      "size": "Size",
-      "collection": "Collection of ...",
-      "print": false
+      "size": null,
+      "collection": "Collection of the artist",
+      "print": true
     },{
       "src":"Diana-Y-Quetzalcoctl",
       "title": "Diana Y Quetzalcoctl",
-      "year": "year",
+      "year": null,
       "medium": "Airbrushed acrylic on paper",
-      "size": "Size",
-      "collection": "Collection of ...",
-      "print": false
+      "size": null,
+      "collection": "Collection of the artist",
+      "print": true
     },{
       "src":"Carrying-the-pass",
       "title": "Carrying the pass",
-      "year": "year",
+      "year": null,
       "medium": "Airbrushed acrylic on paper",
-      "size": "Size",
-      "collection": "Collection of ...",
-      "print": false
+      "size": null,
+      "collection": "Collection of the artist",
+      "print": true
     }
   ]
 }

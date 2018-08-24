@@ -6,26 +6,26 @@
     {
       "src":"Anna-Charra",
       "title": "Anna Charra",
-      "year": "year",
+      "year": null,
       "medium": "Airbrushed acrylic on board",
       "size": "48x36 in",
-      "collection": "Collection of ....",
+      "collection": null,
       "print": true
     },{
       "src":"El-Charro-Horseman",
       "title": "El Charro Horseman",
-      "year": "year",
+      "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": "size",
-      "collection": "Collection of ....",
+      "size": null,
+      "collection": null,
       "print": true
     },{
       "src":"Un-Liston",
       "title": "Un Liston",
-      "year": "year",
+      "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": "size",
-      "collection": "Collection of ....",
+      "size": null,
+      "collection": null,
       "print": true
     },{
       "src":"Proscrita",
@@ -38,26 +38,26 @@
     },{
       "src":"Primera",
       "title": "Primera",
-      "year": "year",
+      "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": "size",
-      "collection": "Collection of ....",
+      "size": null,
+      "collection": null,
       "print": true
     },{
       "src":"Sibonne-1",
       "title": "Sibonne-1",
-      "year": "year",
+      "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": "size",
-      "collection": "Collection of ....",
+      "size": null,
+      "collection": null,
       "print": true
     },{
       "src":"Sibonne-2",
       "title": "Sibonne-2",
-      "year": "year",
+      "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": "size",
-      "collection": "Collection of ....",
+      "size": null,
+      "collection": null,
       "print": true
     }
   ]
