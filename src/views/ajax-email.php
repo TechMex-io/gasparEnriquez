@@ -1,7 +1,7 @@
 <?php
 
 /* SETTINGS */
-$yourEmail = "gmail@gmail.com";
+$yourEmail = "genriq4709@sbcglobal.net";
 $emailSubject = "Message from Website";
 
 if($_POST){
