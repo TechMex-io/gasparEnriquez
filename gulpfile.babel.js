@@ -37,7 +37,8 @@ gulp.task('hbs', () => {
       })
       .data({
         // baseurl: 'https://techmex-io.github.io/gasparEnriquez/'
-        baseurl: 'http://georgeramirezphotography.com/dev/gaspar/'
+        // baseurl: 'http://gasparenriquez.com/dev/'
+        baseurl: '/dev/'
       })
   )
     .pipe(gulp.dest('./dist/'))
