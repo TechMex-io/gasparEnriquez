@@ -13,8 +13,11 @@ if (!window.isMobile && ($('.slide.youtube').length > 0)) {
   function vidRescale(){ var w = $(window).width()+200, h = $(window).height()+300, $elBackground = $('#background'); if (w/h > 16/9){ tv.setSize(w, w/16*9); $elBackground.css({'left': '0px'}); } else { tv.setSize(h/9*16, h); $elBackground.css({'left': -($elBackground.outerWidth()-w)/2}); } }
 }
 
-
-var rellax = new Rellax('.rellax');
+/**added sep 4 trying to fix email issues */
+var relaxNode = $('.rellax');
+if (relaxNode.length > 0) {
+  var rellax = new Rellax(relaxNode);
+}
 
 $(document).ready( function() {
   var $logo = $('svg.logo');
