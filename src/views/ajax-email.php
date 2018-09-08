@@ -1,8 +1,8 @@
 <?php
 
 /* SETTINGS */
-/* $yourEmail = "genriq4709@sbcglobal.net"; */
-$yourEmail = "george.ramirez@icloud.com";
+$yourEmail = "genriq4709@sbcglobal.net";
+// $yourEmail = "george.ramirez@icloud.com";
 $emailSubject = "Message from Website";
 if($_POST){
   /* DATA FROM HTML FORM */
