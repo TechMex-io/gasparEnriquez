@@ -5,18 +5,18 @@
   "portfolioImages": [
     {
       "src":"Anna-Charra",
-      "title": "Anna Charra",
+      "title": "Anna La-Charra",
       "year": null,
-      "medium": "Airbrushed acrylic on board",
-      "size": "48x36 in",
+      "medium": "Airbrushed acrylic on paper",
+      "size": "41x29 in",
       "collection": null,
       "print": true
     },{
       "src":"El-Charro-Horseman",
       "title": "El Charro Horseman",
       "year": null,
-      "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "medium": "Airbrushed acrylic on paper",
+      "size": "41x29 in",
       "collection": null,
       "print": true
     },{
@@ -32,31 +32,31 @@
       "title": "Proscrita",
       "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "size": "5x3 ft.",
       "collection": null,
       "print": true
     },{
       "src":"Primera",
-      "title": "Primera",
+      "title": "Primera Comunion",
       "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "size": "28x48 in.",
       "collection": null,
       "print": true
     },{
       "src":"Sibonne-1",
-      "title": "Sibonne-1",
+      "title": "Sibonne #1",
       "year": null,
-      "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "medium": "Airbrushed acrylic on paper",
+      "size": "30x18 in.",
       "collection": null,
       "print": true
     },{
       "src":"Sibonne-2",
-      "title": "Sibonne-2",
+      "title": "Sibonne #2",
       "year": null,
-      "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "medium": "Airbrushed acrylic on paper",
+      "size": "30x12 in.",
       "collection": null,
       "print": true
     }

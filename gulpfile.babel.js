@@ -39,7 +39,7 @@ gulp.task('hbs', () => {
         // baseurl: 'https://techmex-io.github.io/gasparEnriquez/'
         // baseurl: 'http://gasparenriquez.com/dev/'
         baseurl: 'http://gasparenriquez.com/'
-        // baseurl: '/dev/'
+        //baseurl: '/'
       })
   )
     .pipe(gulp.dest('./dist/'))

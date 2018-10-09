@@ -5,10 +5,10 @@
   "portfolioImages": [
     {
       "src":"Baseball-Jonny",
-      "title": "Baseball Jonny",
+      "title": "Baseball Park Jonny",
       "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "size": "5x4 ft.",
       "collection": "City of El Paso, Texas",
       "print": true
     },{
@@ -16,23 +16,23 @@
       "title": "Socorrow Champs 2009",
       "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "size": "5x4 ft.",
       "collection": "City of El Paso, Texas",
       "print": true
     },{
       "src":"Dream-Big-Jonny",
-      "title": "Dream Big Jonny",
+      "title": "Dream Big Jonny plus ghost",
       "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "size": "5x4 ft.",
       "collection": "City of El Paso, Texas",
       "print": true
     },{
       "src":"Bowie-Design",
-      "title": "Bowie Design",
+      "title": "Bowie H.S. 1949 Champs",
       "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "size": "5x4 ft.",
       "collection": "City of El Paso, Texas",
       "print": true
     },{
@@ -48,7 +48,7 @@
       "title": "Dollar Day-Diablos",
       "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "size": "10x5 ft.",
       "collection": "City of El Paso, Texas",
       "print": true
     },{
@@ -56,7 +56,7 @@
       "title": "Syn Cohen",
       "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "size": "4x12 ft.",
       "collection": "City of El Paso, Texas",
       "print": true
     },{
@@ -64,7 +64,7 @@
       "title": "Tribute to Jim Paul",
       "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "size": "10x5 ft.",
       "collection": "City of El Paso, Texas",
       "print": true
     },{
@@ -72,7 +72,7 @@
       "title": "Sun Dodgers + Texans",
       "year": null,
       "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "size": "10x5 ft.",
       "collection": "City of El Paso, Texas",
       "print": true
     },{
@@ -101,26 +101,26 @@
       "print": true
     },{
       "src":"Cesar-Chavez---yellow-tint",
-      "title": "Cesar Chavez",
+      "title": "Cesar Chavez #1",
       "year": null,
-      "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "medium": "Airbrushed acrylic on paper",
+      "size": "41x29 in.",
       "collection": "For Book, Elegy on the Death of Cesar Chavez,published by Cinco Puntos press",
       "print": true
     },{
       "src":"Cesar-Chavez-Vigal",
-      "title": "Cesar Chavez Vigal",
+      "title": "Cesar Chavez #2",
       "year": null,
-      "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "medium": "Airbrushed acrylic on paper",
+      "size": "41x29 in.",
       "collection": "For Book, Elegy on the Death of Cesar Chavez, published by Cinco Puntos press",
       "print": true
     },{
       "src":"Vigal",
-      "title": "Vigal",
+      "title": "Cesar Chavez #3",
       "year": null,
-      "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "medium": "Airbrushed acrylic on paper",
+      "size": "41x29 in.",
       "collection": "For Book, Elegy on the Death of Cesar Chavez, published by Cinco Puntos press",
       "print": true
     },{
@@ -133,10 +133,10 @@
       "print": true
     },{
       "src":"Workers",
-      "title": "Workers",
+      "title": "Cesar Chavez #3",
       "year": null,
-      "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "medium": "Airbrushed acrylic on paper",
+      "size": "41x29 in.",
       "collection": "For Book, Elegy on the Death of Cesar Chavez, published by Cinco Puntos press",
       "print": true
     },{
@@ -151,24 +151,24 @@
       "src":"Annelise",
       "title": "Annelise",
       "year": null,
-      "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "medium": "Airbrushed acrylic on canvas",
+      "size": "48x54 in",
       "collection": "Private Commission",
       "print": true
     },{
       "src":"Tolliver",
       "title": "Tolliver",
       "year": null,
-      "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "medium": "Airbrushed acrylic on paper",
+      "size": "41x29 in.",
       "collection": "Private Commission",
       "print": true
     },{
       "src":"Kelsey",
       "title": "Kelsey",
       "year": null,
-      "medium": "Airbrushed acrylic on board",
-      "size": null,
+      "medium": "Airbrushed acrylic on paper",
+      "size": "41x29 in.",
       "collection": "Private Commission",
       "print": true
     }
